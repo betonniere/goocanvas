@@ -1,3 +1,9 @@
+2017-11-23  Damon Chaplin  <damon@gnome.org>
+
+	* src/goocanvasitemmodel.c (goo_canvas_item_model_class_list_child_properties):
+	* src/goocanvasitem.c (goo_canvas_item_class_list_child_properties):
+	introspection fix. #790629
+
 2017-10-09  Damon Chaplin  <damon@gnome.org>
 
 	* docs/goocanvas2-docs.sgml:
