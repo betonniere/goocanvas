@@ -1,0 +1,1272 @@
+# Hungarian translation for goocanvas.
+# Copyright (C) 2019 Free Software Foundation, Inc.
+# This file is distributed under the same license as the goocanvas package.
+#
+# Balázs Meskó <mesko.balazs at fsf dot hu>, 2019.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: goocanvas goocanvas-2.0\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/goocanvas/issues\n"
+"POT-Creation-Date: 2018-06-10 17:22+0000\n"
+"PO-Revision-Date: 2019-03-07 08:26+0100\n"
+"Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
+"Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: src/goocanvas.c:310
+msgid "Scale"
+msgstr "Méretezés"
+
+#: src/goocanvas.c:311
+msgid "The magnification factor of the canvas"
+msgstr "A vászon nagyítási tényezője"
+
+#: src/goocanvas.c:317
+msgid "Scale X"
+msgstr "X méretezés"
+
+#: src/goocanvas.c:318
+msgid "The horizontal magnification factor of the canvas"
+msgstr "A vászon vízszintes nagyítási tényezője"
+
+#: src/goocanvas.c:324
+msgid "Scale Y"
+msgstr "Y méretezés"
+
+#: src/goocanvas.c:325
+msgid "The vertical magnification factor of the canvas"
+msgstr "A vászon függőleges nagyítási tényezője"
+
+#: src/goocanvas.c:331 src/goocanvastext.c:158 src/goocanvaswidget.c:587
+msgid "Anchor"
+msgstr "Horgony"
+
+#: src/goocanvas.c:332
+msgid ""
+"Where to place the canvas when it is smaller than the widget's allocated area"
+msgstr ""
+"Hová legyen elhelyezve a vászon, ha kisebb mint a felületi elemnek kiosztott "
+"terület"
+
+#: src/goocanvas.c:339
+msgid "X1"
+msgstr "X1"
+
+#: src/goocanvas.c:340
+msgid "The x coordinate of the left edge of the canvas bounds, in canvas units"
+msgstr "A vászon bal szélének x koordinátája, vászonegységekben"
+
+#: src/goocanvas.c:347
+msgid "Y1"
+msgstr "Y1"
+
+#: src/goocanvas.c:348
+msgid "The y coordinate of the top edge of the canvas bounds, in canvas units"
+msgstr "A vászon felső szélének y koordinátája, vászonegységekben"
+
+#: src/goocanvas.c:355
+msgid "X2"
+msgstr "X2"
+
+#: src/goocanvas.c:356
+msgid ""
+"The x coordinate of the right edge of the canvas bounds, in canvas units"
+msgstr "A vászon jobb szélének x koordinátája, vászonegységekben"
+
+#: src/goocanvas.c:364
+msgid "Y2"
+msgstr "Y2"
+
+#: src/goocanvas.c:365
+msgid ""
+"The y coordinate of the bottom edge of the canvas bounds, in canvas units"
+msgstr "A vászon alsó szélének y koordinátája, vászonegységekben"
+
+#: src/goocanvas.c:374
+msgid "Automatic Bounds"
+msgstr "Automatikus korlátok"
+
+#: src/goocanvas.c:375
+msgid ""
+"If the bounds are automatically calculated based on the bounds of all the "
+"items in the canvas"
+msgstr ""
+"Ha a korlátok automatikusan kerülnek kiszámításra a vásznon szereplő elemek "
+"alapján"
+
+#: src/goocanvas.c:381
+msgid "Bounds From Origin"
+msgstr "Korlátok a forrásból"
+
+#: src/goocanvas.c:382
+msgid "If the automatic bounds are calculated from the origin"
+msgstr "Ha az automatikus korlátok a forrásból kerülnek kiszámításra"
+
+#: src/goocanvas.c:388
+msgid "Bounds Padding"
+msgstr "Korlátok térköze"
+
+#: src/goocanvas.c:389
+msgid "The padding added to the automatic bounds"
+msgstr "Az automatikus korlátokhoz hozzáadott térköz"
+
+#: src/goocanvas.c:395
+msgid "Units"
+msgstr "Mértékegységek"
+
+#: src/goocanvas.c:396
+msgid "The units to use for the canvas"
+msgstr "A vásznon használandó mértékegységek"
+
+#: src/goocanvas.c:403
+msgid "Resolution X"
+msgstr "X-felbontás"
+
+#: src/goocanvas.c:404
+msgid "The horizontal resolution of the display, in dots per inch"
+msgstr "A kijelző vízszintes felbontása, pont/hüvelykben"
+
+#: src/goocanvas.c:411
+msgid "Resolution Y"
+msgstr "Y-felbontás"
+
+#: src/goocanvas.c:412
+msgid "The vertical resolution of the display, in dots per inch"
+msgstr "A kijelző függőleges felbontása, pont/hüvelykben"
+
+#: src/goocanvas.c:420
+msgid "Background Color"
+msgstr "Háttérszín"
+
+#: src/goocanvas.c:421
+msgid "The color to use for the canvas background"
+msgstr "A vászon hátteréhez használandó szín"
+
+#: src/goocanvas.c:427
+msgid "Background Color RGB"
+msgstr "Háttérszín RGB-ként"
+
+#: src/goocanvas.c:428
+msgid ""
+"The color to use for the canvas background, specified as a 24-bit integer "
+"value, 0xRRGGBB"
+msgstr ""
+"A vászon hátteréhez használandó szín, 24 bites egész értékként megadva, "
+"0xRRGGBB"
+
+#: src/goocanvas.c:441
+msgid "Background Color GdkRGBA"
+msgstr "Háttérszín GdkRGBA-ként"
+
+#: src/goocanvas.c:442
+msgid "The color to use for the canvas background, specified as a GdkRGBA"
+msgstr "A vászon hátteréhez használandó szín, GdkRGBA-ként megadva"
+
+#: src/goocanvas.c:448
+msgid "Integer Layout"
+msgstr "Egész elrendezés"
+
+#: src/goocanvas.c:449
+msgid "If all item layout is done to the nearest integer"
+msgstr "Ha az összes elem elrendezése a legközelebbi egészhez történik"
+
+#: src/goocanvas.c:455
+msgid "Clear Background"
+msgstr "Háttér törlése"
+
+#: src/goocanvas.c:456
+msgid "If the background is cleared before the canvas is painted"
+msgstr "Ha a háttér törlésre kerül a vászon festése előtt"
+
+#: src/goocanvas.c:462
+msgid "Redraw When Scrolled"
+msgstr "Újrarajzolás görgetéskor"
+
+#: src/goocanvas.c:463
+msgid ""
+"If the canvas is completely redrawn when scrolled, to reduce the flicker of "
+"static items. Note that since GTK+ 3.0 the canvas is always redrawn when "
+"scrolled, so this option has no effect."
+msgstr ""
+"Ha a vászon teljes újrarajzolásra kerül görgetéskor, hogy csökkenjen a "
+"statikus képek vibrálása. Ne feledje, hogy a GTK+ 3.0 óta a vászon mindig "
+"újrarajzolásra kerül görgetéskor, így a beállításnak nincs hatása."
+
+#: src/goocanvasellipse.c:77
+msgid "Center X"
+msgstr "X-középpont"
+
+#: src/goocanvasellipse.c:78
+msgid "The x coordinate of the center of the ellipse"
+msgstr "Az ellipszis középpontjának x koordinátája"
+
+#: src/goocanvasellipse.c:85
+msgid "Center Y"
+msgstr "Y-középpont"
+
+#: src/goocanvasellipse.c:86
+msgid "The y coordinate of the center of the ellipse"
+msgstr "Az ellipszis középpontjának y koordinátája"
+
+#: src/goocanvasellipse.c:93 src/goocanvasrect.c:90
+msgid "Radius X"
+msgstr "X-sugár"
+
+#: src/goocanvasellipse.c:94
+msgid "The horizontal radius of the ellipse"
+msgstr "Az ellipszis vízszintes sugara"
+
+#: src/goocanvasellipse.c:100 src/goocanvasrect.c:97
+msgid "Radius Y"
+msgstr "Y-sugár"
+
+#: src/goocanvasellipse.c:101
+msgid "The vertical radius of the ellipse"
+msgstr "Az ellipszis függőleges sugara"
+
+#: src/goocanvasellipse.c:108
+msgid "The x coordinate of the left side of the ellipse"
+msgstr "Az ellipszis bal oldalának x koordinátája"
+
+#: src/goocanvasellipse.c:116
+msgid "The y coordinate of the top of the ellipse"
+msgstr "Az ellipszis tetejének y koordinátája"
+
+#: src/goocanvasellipse.c:123 src/goocanvasgrid.c:127 src/goocanvasgroup.c:106
+#: src/goocanvasimage.c:115 src/goocanvaspath.c:93 src/goocanvaspolyline.c:246
+#: src/goocanvasrect.c:76 src/goocanvastext.c:141 src/goocanvaswidget.c:570
+msgid "Width"
+msgstr "Szélesség"
+
+#: src/goocanvasellipse.c:124
+msgid "The width of the ellipse"
+msgstr "Az ellipszis szélessége"
+
+#: src/goocanvasellipse.c:130 src/goocanvasgrid.c:134 src/goocanvasgroup.c:114
+#: src/goocanvasimage.c:122 src/goocanvaspath.c:100 src/goocanvaspolyline.c:253
+#: src/goocanvasrect.c:83 src/goocanvastext.c:149 src/goocanvaswidget.c:578
+msgid "Height"
+msgstr "Magasság"
+
+#: src/goocanvasellipse.c:131
+msgid "The height of the ellipse"
+msgstr "Az ellipszis magassága"
+
+#: src/goocanvasgrid.c:112
+msgid "The x coordinate of the grid"
+msgstr "A rács x koordinátája"
+
+#: src/goocanvasgrid.c:120
+msgid "The y coordinate of the grid"
+msgstr "A rács y koordinátája"
+
+#: src/goocanvasgrid.c:128
+msgid "The width of the grid"
+msgstr "A rács szélessége"
+
+#: src/goocanvasgrid.c:135
+msgid "The height of the grid"
+msgstr "A rács magassága"
+
+#: src/goocanvasgrid.c:142
+msgid "The distance between the vertical grid lines"
+msgstr "A függőleges rácsvonalak közti távolság"
+
+#: src/goocanvasgrid.c:149
+msgid "The distance between the horizontal grid lines"
+msgstr "A vízszintes rácsvonalak közti távolság"
+
+#: src/goocanvasgrid.c:156
+msgid "The distance before the first vertical grid line"
+msgstr "Az első függőleges rácsvonal előtti távolság"
+
+#: src/goocanvasgrid.c:163
+msgid "The distance before the first horizontal grid line"
+msgstr "Az első vízszintes rácsvonal előtti távolság"
+
+#: src/goocanvasgrid.c:169 src/goocanvastable.c:276
+msgid "Horizontal Grid Line Width"
+msgstr "Vízszintes rácsvonal szélessége"
+
+#: src/goocanvasgrid.c:170
+msgid "The width of the horizontal grid lines"
+msgstr "A vízszintes rácsvonalak szélessége"
+
+#: src/goocanvasgrid.c:177 src/goocanvastable.c:283
+msgid "Vertical Grid Line Width"
+msgstr "Függőleges rácsvonal szélessége"
+
+#: src/goocanvasgrid.c:178
+msgid "The width of the vertical grid lines"
+msgstr "A függőleges rácsvonalak szélessége"
+
+#: src/goocanvasgrid.c:185
+msgid "Horizontal Grid Line Pattern"
+msgstr "Vízszintes rácsvonal mintázata"
+
+#: src/goocanvasgrid.c:186
+msgid "The cairo pattern to paint the horizontal grid lines with"
+msgstr "A vízszintes rácsvonalak kirajzolásához használt cairo mintázat"
+
+#: src/goocanvasgrid.c:192
+msgid "Vertical Grid Line Pattern"
+msgstr "Függőleges rácsvonal mintázata"
+
+#: src/goocanvasgrid.c:193
+msgid "The cairo pattern to paint the vertical grid lines with"
+msgstr "A függőleges rácsvonalak kirajzolásához használt cairo mintázat"
+
+#: src/goocanvasgrid.c:199
+msgid "Border Width"
+msgstr "Szegélyvastagság"
+
+#: src/goocanvasgrid.c:200
+msgid "The width of the border around the grid"
+msgstr "A rács körüli szegély vastagsága"
+
+#: src/goocanvasgrid.c:207
+msgid "Border Pattern"
+msgstr "Szegélymintázat"
+
+#: src/goocanvasgrid.c:208
+msgid "The cairo pattern to paint the border with"
+msgstr "A szegély kirajzolásához használt cairo mintázat"
+
+#: src/goocanvasgrid.c:214
+msgid "Show Horizontal Grid Lines"
+msgstr "Vízszintes rácsvonalak megjelenítése"
+
+#: src/goocanvasgrid.c:215
+msgid "If the horizontal grid lines are shown"
+msgstr "Ha a vízszintes rácsvonalak megjelenítésre kerülnek"
+
+#: src/goocanvasgrid.c:221
+msgid "Show Vertical Grid Lines"
+msgstr "Függőleges rácsvonalak megjelenítése"
+
+#: src/goocanvasgrid.c:222
+msgid "If the vertical grid lines are shown"
+msgstr "Ha a függőleges rácsvonalak megjelenítésre kerülnek"
+
+#: src/goocanvasgrid.c:228
+msgid "Vertical Grid Lines On Top"
+msgstr "Függőleges rácsvonalak fent"
+
+#: src/goocanvasgrid.c:229
+msgid "If the vertical grid lines are painted above the horizontal grid lines"
+msgstr "Ha a függőleges rácsvonalak a vízszintesek fölé kerülnek kirajzolásra"
+
+#: src/goocanvasgrid.c:237
+msgid "Horizontal Grid Line Color"
+msgstr "Vízszintes rácsvonal színe"
+
+#: src/goocanvasgrid.c:238
+msgid "The color to use for the horizontal grid lines"
+msgstr "A vízszintes rácsvonalakhoz használandó szín"
+
+#: src/goocanvasgrid.c:244
+msgid "Horizontal Grid Line Color RGBA"
+msgstr "Vízszintes rácsvonal színe RGBA-ként"
+
+#: src/goocanvasgrid.c:245
+msgid ""
+"The color to use for the horizontal grid lines, specified as a 32-bit "
+"integer value"
+msgstr ""
+"A vízszintes rácsvonalakhoz használandó szín, 32 bites egész értékként "
+"megadva"
+
+#: src/goocanvasgrid.c:258
+msgid "Horizontal Grid Line Color GdkRGBA"
+msgstr "Vízszintes rácsvonal színe GdkRGBA-ként"
+
+#: src/goocanvasgrid.c:259
+msgid "The color to use for the horizontal grid lines, specified as a GdkRGBA"
+msgstr "A vízszintes rácsvonalakhoz használandó szín, GdkRGBA-ként megadva"
+
+#: src/goocanvasgrid.c:265
+msgid "Horizontal Grid Line Pixbuf"
+msgstr "Vízszintes rácsvonal pixbuf"
+
+#: src/goocanvasgrid.c:266
+msgid "The pixbuf to use to draw the horizontal grid lines"
+msgstr "A vízszintes rácsvonalak kirajzolásához használandó pixbuf"
+
+#: src/goocanvasgrid.c:272
+msgid "Vertical Grid Line Color"
+msgstr "Függőleges rácsvonal színe"
+
+#: src/goocanvasgrid.c:273
+msgid "The color to use for the vertical grid lines"
+msgstr "A függőleges rácsvonalakhoz használandó szín"
+
+#: src/goocanvasgrid.c:279
+msgid "Vertical Grid Line Color RGBA"
+msgstr "Függőleges rácsvonal színe RGBA-ként"
+
+#: src/goocanvasgrid.c:280
+msgid ""
+"The color to use for the vertical grid lines, specified as a 32-bit integer "
+"value"
+msgstr ""
+"A függőleges rácsvonalakhoz használandó szín, 32 bites egész értékként "
+"megadva"
+
+#: src/goocanvasgrid.c:293
+msgid "Vertical Grid Line Color GdkRGBA"
+msgstr "Függőleges rácsvonal színe GdkRGBA-ként"
+
+#: src/goocanvasgrid.c:294
+msgid "The color to use for the vertical grid lines, specified as a GdkRGBA"
+msgstr "A függőleges rácsvonalakhoz használandó szín, GdkRGBA-ként megadva"
+
+#: src/goocanvasgrid.c:300
+msgid "Vertical Grid Line Pixbuf"
+msgstr "Függőleges rácsvonal pixbuf"
+
+#: src/goocanvasgrid.c:301
+msgid "The pixbuf to use to draw the vertical grid lines"
+msgstr "A függőleges rácsvonalak kirajzolásához használandó pixbuf"
+
+#: src/goocanvasgrid.c:307
+msgid "Border Color"
+msgstr "Szegélyszín"
+
+#: src/goocanvasgrid.c:308
+msgid "The color to use for the border"
+msgstr "A szegélyhez használandó szín"
+
+#: src/goocanvasgrid.c:314
+msgid "Border Color RGBA"
+msgstr "Szegélyszín RGBA-ként"
+
+#: src/goocanvasgrid.c:315
+msgid "The color to use for the border, specified as a 32-bit integer value"
+msgstr "A szegélyhez használandó szín, 32 bites egész értékként megadva"
+
+#: src/goocanvasgrid.c:328
+msgid "Border Color GdkRGBA"
+msgstr "Szegélyszín GdkRGBA-ként"
+
+#: src/goocanvasgrid.c:329
+msgid "The color to use for the border, specified as a GdkRGBA"
+msgstr "A szegélyhez használandó szín, GdkRGBA-ként megadva"
+
+#: src/goocanvasgrid.c:335
+msgid "Border Pixbuf"
+msgstr "Szegély pixbuf"
+
+#: src/goocanvasgrid.c:336
+msgid "The pixbuf to use to draw the border"
+msgstr "A keret kirajzolásához használandó pixbuf"
+
+#: src/goocanvasgroup.c:91
+msgid "The x coordinate of the group"
+msgstr "A csoport x koordinátája"
+
+#: src/goocanvasgroup.c:99
+msgid "The y coordinate of the group"
+msgstr "A csoport y koordinátája"
+
+#: src/goocanvasgroup.c:107
+msgid "The width of the group, or -1 to use the default width"
+msgstr ""
+"A csoport szélessége, vagy -1 esetén az alapértelmezett szélesség használata"
+
+#: src/goocanvasgroup.c:115
+msgid "The height of the group, or -1 to use the default height"
+msgstr ""
+"A csoport magassága, vagy -1 esetén az alapértelmezett magasság használata"
+
+#: src/goocanvasimage.c:92
+msgid "Pattern"
+msgstr "Mintázat"
+
+#: src/goocanvasimage.c:93
+msgid "The cairo pattern to paint"
+msgstr "A kirajzolandó cairo mintázat"
+
+#: src/goocanvasimage.c:100
+msgid "The x coordinate of the image"
+msgstr "A kép x koordinátája"
+
+#: src/goocanvasimage.c:108
+msgid "The y coordinate of the image"
+msgstr "A kép y koordinátája"
+
+#: src/goocanvasimage.c:116
+msgid "The width of the image"
+msgstr "A kép szélessége"
+
+#: src/goocanvasimage.c:123
+msgid "The height of the image"
+msgstr "A kép magassága"
+
+#: src/goocanvasimage.c:129
+msgid "Scale To Fit"
+msgstr "Méretre igazítás"
+
+#: src/goocanvasimage.c:130
+msgid "If the image is scaled to fit the width and height settings"
+msgstr ""
+"Ha a kép méretezésre kerül, hogy igazodjon a szélesség- és "
+"magasságbeállításokhoz"
+
+#: src/goocanvasimage.c:136
+msgid "Alpha"
+msgstr "Alfa"
+
+#: src/goocanvasimage.c:137
+msgid "The opacity of the image, 0.0 is fully transparent, and 1.0 is opaque."
+msgstr ""
+"A kép átlátszatlansága, a 0.0 teljesen átlátszó, az 1.0 pedig átlátszatlan."
+
+#: src/goocanvasimage.c:143
+msgid "Pixbuf"
+msgstr "Pixbuf"
+
+#: src/goocanvasimage.c:144
+msgid "The GdkPixbuf to display"
+msgstr "A megjelenítendő GdkPixbuf"
+
+#: src/goocanvasitem.c:467 src/goocanvasitemmodel.c:224
+msgid "Parent"
+msgstr "Szülő"
+
+#: src/goocanvasitem.c:468
+msgid "The parent item"
+msgstr "A szülőelem"
+
+#: src/goocanvasitem.c:474 src/goocanvasitemmodel.c:231
+msgid "Visibility"
+msgstr "Láthatóság"
+
+#: src/goocanvasitem.c:475 src/goocanvasitemmodel.c:232
+msgid "When the canvas item is visible"
+msgstr "Ha a vászonelem látható"
+
+#: src/goocanvasitem.c:482 src/goocanvasitemmodel.c:239
+msgid "Visibility Threshold"
+msgstr "Láthatósági küszöbszint"
+
+#: src/goocanvasitem.c:483 src/goocanvasitemmodel.c:240
+msgid "The scale threshold at which the item becomes visible"
+msgstr "A méretezési küszöbszint, amikor az elem láthatóvá válik"
+
+#: src/goocanvasitem.c:491 src/goocanvasitemmodel.c:248
+msgid "Transform"
+msgstr "Transzformáció"
+
+#: src/goocanvasitem.c:492 src/goocanvasitemmodel.c:249
+msgid "The transformation matrix of the item"
+msgstr "Az elem transzformációs mátrixa"
+
+#: src/goocanvasitem.c:498 src/goocanvasitemmodel.c:255
+msgid "Pointer Events"
+msgstr "Mutatóesemények"
+
+#: src/goocanvasitem.c:499 src/goocanvasitemmodel.c:256
+msgid "Specifies when the item receives pointer events"
+msgstr "Megadja, hogy az elem mikor fogad mutatóeseményeket"
+
+#: src/goocanvasitem.c:506 src/goocanvasitemmodel.c:263
+msgid "Title"
+msgstr "Cím"
+
+#: src/goocanvasitem.c:507 src/goocanvasitemmodel.c:264
+msgid ""
+"A short context-rich description of the item for use by assistive "
+"technologies"
+msgstr ""
+"Az akadálymentesítési technológiák által használt rövid, tartalomgazdag "
+"elemleírás"
+
+#: src/goocanvasitem.c:513 src/goocanvasitemmodel.c:270
+msgid "Description"
+msgstr "Leírás"
+
+#: src/goocanvasitem.c:514 src/goocanvasitemmodel.c:271
+msgid "A description of the item for use by assistive technologies"
+msgstr "Az akadálymentesítési technológiák által használt elemleírás"
+
+#: src/goocanvasitem.c:520 src/goocanvasitemmodel.c:277
+msgid "Can Focus"
+msgstr "Kaphat fókuszt"
+
+#: src/goocanvasitem.c:521 src/goocanvasitemmodel.c:278
+msgid "If the item can take the keyboard focus"
+msgstr "Ha az elem megkaphatja a billentyűzetfókuszt"
+
+#: src/goocanvasitem.c:536 src/goocanvasitemmodel.c:284
+msgid "Tooltip"
+msgstr "Buboréksúgó"
+
+#: src/goocanvasitem.c:537 src/goocanvasitemmodel.c:285
+msgid "The tooltip to display for the item"
+msgstr "Az elemhez megjelenítendő buboréksúgó"
+
+#: src/goocanvasitemmodel.c:225
+msgid "The parent item model"
+msgstr "A szülőelem modellje"
+
+#: src/goocanvasitemsimple.c:128
+msgid "Stroke Pattern"
+msgstr "Körvonalmintázat"
+
+#: src/goocanvasitemsimple.c:129
+msgid ""
+"The pattern to use to paint the perimeter of the item, or NULL disable "
+"painting"
+msgstr ""
+"Az elem körvonalának kirajzolásához használandó mintázat, vagy NULL a "
+"rajzolás letiltásához"
+
+#: src/goocanvasitemsimple.c:135
+msgid "Fill Pattern"
+msgstr "Kitöltési mintázat"
+
+#: src/goocanvasitemsimple.c:136
+msgid ""
+"The pattern to use to paint the interior of the item, or NULL to disable "
+"painting"
+msgstr ""
+"Az elem belsejének kirajzolásához használandó mintázat, vagy NULL a rajzolás "
+"letiltásához"
+
+#: src/goocanvasitemsimple.c:142
+msgid "Fill Rule"
+msgstr "Kitöltési szabály"
+
+#: src/goocanvasitemsimple.c:143
+msgid "The fill rule used to determine which parts of the item are filled"
+msgstr "A kitöltendő elemrészek meghatározásához használt kitöltési szabály"
+
+#: src/goocanvasitemsimple.c:150
+msgid "Operator"
+msgstr "Operátor"
+
+#: src/goocanvasitemsimple.c:151
+msgid "The compositing operator to use"
+msgstr "A használandó kompozitálási operátor"
+
+#: src/goocanvasitemsimple.c:158
+msgid "Antialias"
+msgstr "Élsimítás"
+
+#: src/goocanvasitemsimple.c:159
+msgid "The antialiasing mode to use"
+msgstr "A használandó élsimítási mód"
+
+#: src/goocanvasitemsimple.c:167
+msgid "Line Width"
+msgstr "Vonalvastagság"
+
+#: src/goocanvasitemsimple.c:168
+msgid "The line width to use for the item's perimeter"
+msgstr "Az elem körvonalához használandó vonalvastagság"
+
+#: src/goocanvasitemsimple.c:174
+msgid "Line Cap"
+msgstr "Vonalvég"
+
+#: src/goocanvasitemsimple.c:175
+msgid "The line cap style to use"
+msgstr "A használandó vonalvégstílus"
+
+#: src/goocanvasitemsimple.c:182
+msgid "Line Join"
+msgstr "Sarok"
+
+#: src/goocanvasitemsimple.c:183
+msgid "The line join style to use"
+msgstr "A használandó sarokstílus"
+
+#: src/goocanvasitemsimple.c:190
+msgid "Miter Limit"
+msgstr "Hegyességkorlát"
+
+#: src/goocanvasitemsimple.c:191
+msgid ""
+"The smallest angle to use with miter joins, in degrees. Bevel joins will be "
+"used below this limit"
+msgstr ""
+"A legkisebb szög fokban, amelytől hegyes sarkok lesznek használva. A korlát "
+"alatt levágott sarkok lesznek használva."
+
+#: src/goocanvasitemsimple.c:197
+msgid "Line Dash"
+msgstr "Vonalszaggatás"
+
+#: src/goocanvasitemsimple.c:198
+msgid "The dash pattern to use"
+msgstr "A használandó szaggatási minta"
+
+#: src/goocanvasitemsimple.c:205
+msgid "Font"
+msgstr "Betűkészlet"
+
+#: src/goocanvasitemsimple.c:206
+msgid "The base font to use for the text"
+msgstr "A szöveghez használt alap betűkészlet"
+
+#: src/goocanvasitemsimple.c:212
+msgid "Font Description"
+msgstr "Betűkészlet-leírás"
+
+#: src/goocanvasitemsimple.c:213
+msgid "The attributes specifying which font to use"
+msgstr "A használandó betűkészletet megadó attribútumok"
+
+#: src/goocanvasitemsimple.c:219
+msgid "Hint Metrics"
+msgstr "Raszterizálási metrikák"
+
+#: src/goocanvasitemsimple.c:220
+msgid "The hinting to be used for font metrics"
+msgstr "A betűkészlet-metrikákhoz használandó raszterizálás"
+
+#: src/goocanvasitemsimple.c:228
+msgid "Stroke Color"
+msgstr "Körvonalszín"
+
+#: src/goocanvasitemsimple.c:229
+msgid ""
+"The color to use for the item's perimeter. To disable painting set the "
+"'stroke-pattern' property to NULL"
+msgstr ""
+"Az elem körvonalához használandó szín. A rajzolás letiltásához állítsa NULL-"
+"ra a „stroke-pattern” tulajdonságot"
+
+#: src/goocanvasitemsimple.c:235
+msgid "Stroke Color RGBA"
+msgstr "Körvonalszín RGBA-ként"
+
+#: src/goocanvasitemsimple.c:236
+msgid ""
+"The color to use for the item's perimeter, specified as a 32-bit integer "
+"value. To disable painting set the 'stroke-pattern' property to NULL"
+msgstr ""
+"Az elem körvonalához használandó szín, 32 bites egész értékként megadva. A "
+"rajzolás letiltásához állítsa NULL-ra a „stroke-pattern” tulajdonságot"
+
+#: src/goocanvasitemsimple.c:249
+msgid "Stroke Color GdkRGBA"
+msgstr "Körvonalszín GdkRGBA-ként"
+
+#: src/goocanvasitemsimple.c:250
+msgid ""
+"The color to use for the item's perimeter, specified as a GdkRGBA. To "
+"disable painting set the 'stroke-pattern' property to NULL"
+msgstr ""
+"Az elem körvonalához használandó szín, GdkRGBA-ként megadva. A rajzolás "
+"letiltásához állítsa NULL-ra a „stroke-pattern” tulajdonságot"
+
+#: src/goocanvasitemsimple.c:256
+msgid "Stroke Pixbuf"
+msgstr "Körvonal pixbuf"
+
+#: src/goocanvasitemsimple.c:257
+msgid ""
+"The pixbuf to use to draw the item's perimeter. To disable painting set the "
+"'stroke-pattern' property to NULL"
+msgstr ""
+"Az elem körvonalának rajzolásához használandó pixbuf. A rajzolás letiltásához "
+"állítsa NULL-ra a „stroke-pattern” tulajdonságot"
+
+#: src/goocanvasitemsimple.c:263
+msgid "Fill Color"
+msgstr "Kitöltőszín"
+
+#: src/goocanvasitemsimple.c:264
+msgid ""
+"The color to use to paint the interior of the item. To disable painting set "
+"the 'fill-pattern' property to NULL"
+msgstr ""
+"Az elem belsejének kirajzolásához használandó szín. A rajzolás letiltásához "
+"állítsa NULL-ra a „fill-pattern” tulajdonságot"
+
+#: src/goocanvasitemsimple.c:270
+msgid "Fill Color RGBA"
+msgstr "Kitöltőszín GRBA-ként"
+
+#: src/goocanvasitemsimple.c:271
+msgid ""
+"The color to use to paint the interior of the item, specified as a 32-bit "
+"integer value. To disable painting set the 'fill-pattern' property to NULL"
+msgstr ""
+"Az elem belsejének kirajzolásához használandó szín, 32 bites egész értékként "
+"megadva. A rajzolás letiltásához állítsa NULL-ra a „fill-pattern” "
+"tulajdonságot"
+
+#: src/goocanvasitemsimple.c:284
+msgid "Fill Color GdkRGBA"
+msgstr "Kitöltőszín GdkRGBA-ként"
+
+#: src/goocanvasitemsimple.c:285
+msgid ""
+"The color to use to paint the interior of the item, specified as a GdkRGBA. "
+"To disable painting set the 'fill-pattern' property to NULL"
+msgstr ""
+"Az elem belsejének kirajzolásához használandó szín, GdkRGBA-ként megadva. A "
+"rajzolás letiltásához állítsa NULL-ra a „fill-pattern” tulajdonságot"
+
+#: src/goocanvasitemsimple.c:291
+msgid "Fill Pixbuf"
+msgstr "Kitöltő pixbuf"
+
+#: src/goocanvasitemsimple.c:292
+msgid ""
+"The pixbuf to use to paint the interior of the item. To disable painting set "
+"the 'fill-pattern' property to NULL"
+msgstr ""
+"Az elem belsejének kirajzolásához használandó pixbuf. A rajzolás "
+"letiltásához állítsa NULL-ra a „fill-pattern” tulajdonságot"
+
+#: src/goocanvasitemsimple.c:342
+msgid "Clip Path"
+msgstr "Vágási útvonal"
+
+#: src/goocanvasitemsimple.c:343
+msgid "The sequence of path commands specifying the clip path"
+msgstr "Útvonalparancsok sorozata, amely megadja a vágási útvonalat"
+
+#: src/goocanvasitemsimple.c:349
+msgid "Clip Fill Rule"
+msgstr "Vágási kitöltési szabály"
+
+#: src/goocanvasitemsimple.c:350
+msgid "The fill rule used to determine which parts of the item are clipped"
+msgstr "A levágandó elemrészek meghatározásához használt kitöltési szabály"
+
+#: src/goocanvaspath.c:70
+msgid "Path Data"
+msgstr "Útvonaladatok"
+
+#: src/goocanvaspath.c:71
+msgid "The sequence of path commands"
+msgstr "Az útvonalparancsok sorozata"
+
+#: src/goocanvaspath.c:78
+msgid "The x coordinate of the path"
+msgstr "Az útvonal x koordinátája"
+
+#: src/goocanvaspath.c:86
+msgid "The y coordinate of the path"
+msgstr "Az útvonal y koordinátája"
+
+#: src/goocanvaspath.c:94
+msgid "The width of the path"
+msgstr "Az útvonal szélessége"
+
+#: src/goocanvaspath.c:101
+msgid "The height of the path"
+msgstr "Az útvonal magassága"
+
+#: src/goocanvaspolyline.c:181
+msgid "Points"
+msgstr "Pontok"
+
+#: src/goocanvaspolyline.c:182
+msgid "The array of points"
+msgstr "A pontok tömbje"
+
+#: src/goocanvaspolyline.c:188
+msgid "Close Path"
+msgstr "Útvonal bezárása"
+
+#: src/goocanvaspolyline.c:189
+msgid "If the last point should be connected to the first"
+msgstr "Ha az utolsó pontnak csatlakoznia kell az elsőhöz"
+
+#: src/goocanvaspolyline.c:195
+msgid "Start Arrow"
+msgstr "Kezdő nyíl"
+
+#: src/goocanvaspolyline.c:196
+msgid "If an arrow should be displayed at the start of the polyline"
+msgstr "Ha nyilat kell megjeleníteni a törött vonal elején"
+
+#: src/goocanvaspolyline.c:202
+msgid "End Arrow"
+msgstr "Záró nyíl"
+
+#: src/goocanvaspolyline.c:203
+msgid "If an arrow should be displayed at the end of the polyline"
+msgstr "Ha nyilat kell megjeleníteni a törött vonal végén"
+
+#: src/goocanvaspolyline.c:209
+msgid "Arrow Length"
+msgstr "Nyíl hossza"
+
+#: src/goocanvaspolyline.c:210
+msgid "The length of the arrows, as a multiple of the line width"
+msgstr "A nyilak hossza, a vonalvastagság többszöröseként"
+
+#: src/goocanvaspolyline.c:216
+msgid "Arrow Width"
+msgstr "Nyílszélesség"
+
+#: src/goocanvaspolyline.c:217
+msgid "The width of the arrows, as a multiple of the line width"
+msgstr "A nyilak szélessége, a vonalvastagság többszöröseként"
+
+#: src/goocanvaspolyline.c:223
+msgid "Arrow Tip Length"
+msgstr "Nyílhegy hossza"
+
+#: src/goocanvaspolyline.c:224
+msgid "The length of the arrow tip, as a multiple of the line width"
+msgstr "A nyílhegy hossza, a vonalvastagság többszöröseként"
+
+#: src/goocanvaspolyline.c:231
+msgid "The x coordinate of the left-most point of the polyline"
+msgstr "A törött vonal leginkább balra lévő pontjának x koordinátája"
+
+#: src/goocanvaspolyline.c:239
+msgid "The y coordinate of the top-most point of the polyline"
+msgstr "A törött vonal legmagasabb pontjának y koordinátája"
+
+#: src/goocanvaspolyline.c:247
+msgid "The width of the polyline"
+msgstr "A törött vonal szélessége"
+
+#: src/goocanvaspolyline.c:254
+msgid "The height of the polyline"
+msgstr "A törött vonal magassága"
+
+#: src/goocanvasrect.c:61
+msgid "The x coordinate of the rectangle"
+msgstr "A négyszög x koordinátája"
+
+#: src/goocanvasrect.c:69
+msgid "The y coordinate of the rectangle"
+msgstr "A négyszög y koordinátája"
+
+#: src/goocanvasrect.c:77
+msgid "The width of the rectangle"
+msgstr "A négyszög szélessége"
+
+#: src/goocanvasrect.c:84
+msgid "The height of the rectangle"
+msgstr "A négyszög magassága"
+
+#: src/goocanvasrect.c:91
+msgid "The horizontal radius to use for rounded corners"
+msgstr "A lekerekített sarkokhoz használandó vízszintes sugár"
+
+#: src/goocanvasrect.c:98
+msgid "The vertical radius to use for rounded corners"
+msgstr "A lekerekített sarkokhoz használandó függőleges sugár"
+
+#: src/goocanvastable.c:237
+msgid "Row Spacing"
+msgstr "Sorköz"
+
+#: src/goocanvastable.c:238
+msgid "The default space between rows"
+msgstr "A sorok közti alapértelmezett térköz"
+
+#: src/goocanvastable.c:244
+msgid "Column Spacing"
+msgstr "Oszlopköz"
+
+#: src/goocanvastable.c:245
+msgid "The default space between columns"
+msgstr "Az oszlopok közti alapértelmezett térköz"
+
+#: src/goocanvastable.c:251
+msgid "Homogenous Rows"
+msgstr "Homogén sorok"
+
+#: src/goocanvastable.c:252
+msgid "If all rows are the same height"
+msgstr "Ha az összes sor megegyező magasságú"
+
+#: src/goocanvastable.c:258
+msgid "Homogenous Columns"
+msgstr "Homogén oszlopok"
+
+#: src/goocanvastable.c:259
+msgid "If all columns are the same width"
+msgstr "Ha az összes oszlop megegyező szélességű"
+
+#: src/goocanvastable.c:264
+msgid "X Border Spacing"
+msgstr "X-szegélyköz"
+
+#: src/goocanvastable.c:265
+msgid ""
+"The amount of spacing between the lefmost and rightmost cells and the border "
+"grid line"
+msgstr ""
+"A leginkább balra lévő és a leginkább jobbra lévő cellák, valamint a szegély "
+"rácsvonal közti térköz"
+
+#: src/goocanvastable.c:270
+msgid "Y Border Spacing"
+msgstr "Y-szegélyköz"
+
+#: src/goocanvastable.c:271
+msgid ""
+"The amount of spacing between the topmost and bottommost cells and the "
+"border grid line"
+msgstr ""
+"A legfelső és a legalsó cellák, valamint a szegély rácsvonal közti térköz"
+
+#: src/goocanvastable.c:277
+msgid "The width of the grid line to draw between rows"
+msgstr "A sorok közé rajzolandó rácsvonal szélessége"
+
+#: src/goocanvastable.c:284
+msgid "The width of the grid line to draw between columns"
+msgstr "Az oszlopok közé rajzolandó rácsvonal szélessége"
+
+#: src/goocanvastable.c:293
+msgid "Left Padding"
+msgstr "Bal térköz"
+
+#: src/goocanvastable.c:294
+msgid "Extra space to add to the left of the item"
+msgstr "Az elem bal oldalához hozzáadandó további térköz"
+
+#: src/goocanvastable.c:299
+msgid "Right Padding"
+msgstr "Jobb térköz"
+
+#: src/goocanvastable.c:300
+msgid "Extra space to add to the right of the item"
+msgstr "Az elem jobb oldalához hozzáadandó további térköz"
+
+#: src/goocanvastable.c:305
+msgid "Top Padding"
+msgstr "Felső térköz"
+
+#: src/goocanvastable.c:306
+msgid "Extra space to add above the item"
+msgstr "Az elem fölé hozzáadandó további térköz"
+
+#: src/goocanvastable.c:311
+msgid "Bottom Padding"
+msgstr "Alsó térköz"
+
+#: src/goocanvastable.c:312
+msgid "Extra space to add below the item"
+msgstr "Az elem alá hozzáadandó további térköz"
+
+#: src/goocanvastable.c:318
+msgid "X Align"
+msgstr "X-igazítás"
+
+#: src/goocanvastable.c:319
+msgid ""
+"The horizontal position of the item within its allocated space. 0.0 is left-"
+"aligned, 1.0 is right-aligned"
+msgstr ""
+"Az elem vízszintes pozíciója a lefoglalt területén. A 0.0 balra igazítást, "
+"az 1.0 jobbra igazítást jelent"
+
+#: src/goocanvastable.c:324
+msgid "Y Align"
+msgstr "Y-igazítás"
+
+#: src/goocanvastable.c:325
+msgid ""
+"The vertical position of the item within its allocated space. 0.0 is top-"
+"aligned, 1.0 is bottom-aligned"
+msgstr ""
+"Az elem függőleges pozíciója a lefoglalt területén. A 0.0 fentre igazítást, "
+"az 1.0 lentre igazítást jelent"
+
+#: src/goocanvastable.c:331
+msgid "Row"
+msgstr "Sor"
+
+#: src/goocanvastable.c:332
+msgid "The row to place the item in"
+msgstr "A sor, amelybe az elem kerülni fog"
+
+#: src/goocanvastable.c:337
+msgid "Column"
+msgstr "Oszlop"
+
+#: src/goocanvastable.c:338
+msgid "The column to place the item in"
+msgstr "Az oszlop, amelybe az elem kerülni fog"
+
+#: src/goocanvastable.c:343
+msgid "Rows"
+msgstr "Sorok"
+
+#: src/goocanvastable.c:344
+msgid "The number of rows that the item spans"
+msgstr "A sorok száma, amelyet az elem átfog"
+
+#: src/goocanvastable.c:349
+msgid "Columns"
+msgstr "Oszlopok"
+
+#: src/goocanvastable.c:350
+msgid "The number of columns that the item spans"
+msgstr "Az oszlopok száma, amelyeket az elem átfog"
+
+#: src/goocanvastable.c:356
+msgid "X Expand"
+msgstr "X-bővítés"
+
+#: src/goocanvastable.c:357
+msgid "If the item expands horizontally as the table expands"
+msgstr "Ha az elem vízszintesen nő, amint a tábla növekszik"
+
+#: src/goocanvastable.c:362
+msgid "X Fill"
+msgstr "X-kitöltés"
+
+#: src/goocanvastable.c:363
+msgid "If the item fills all horizontal allocated space"
+msgstr "Ha az elem kitölti a teljes vízszintesen kiosztott helyet"
+
+#: src/goocanvastable.c:368
+msgid "X Shrink"
+msgstr "X-zsugorítás"
+
+#: src/goocanvastable.c:369
+msgid "If the item can shrink smaller than its requested size horizontally"
+msgstr "Ha az elem kisebbre zsugorodhat, mint a vízszintesen kért mérete"
+
+#: src/goocanvastable.c:374
+msgid "Y Expand"
+msgstr "Y-bővítés"
+
+#: src/goocanvastable.c:375
+msgid "If the item expands vertically as the table expands"
+msgstr "Ha az elem függőlegesen nő, amint a tábla növekszik"
+
+#: src/goocanvastable.c:380
+msgid "Y Fill"
+msgstr "Y-kitöltés"
+
+#: src/goocanvastable.c:381
+msgid "If the item fills all vertical allocated space"
+msgstr "Ha az elem kitölti a teljes függőlegesen kiosztott helyet"
+
+#: src/goocanvastable.c:386
+msgid "Y Shrink"
+msgstr "Y-zsugorítás"
+
+#: src/goocanvastable.c:387
+msgid "If the item can shrink smaller than its requested size vertically"
+msgstr "Ha az elem kisebbre zsugorodhat, mint a függőlegesen kért mérete"
+
+#: src/goocanvastext.c:94
+msgid "Text"
+msgstr "Szöveg"
+
+#: src/goocanvastext.c:95
+msgid "The text to display"
+msgstr "A megjelenítendő szöveg"
+
+#: src/goocanvastext.c:101
+msgid "Use Markup"
+msgstr "Jelölőnyelv használata"
+
+#: src/goocanvastext.c:102
+msgid "Whether to parse PangoMarkup in the text, to support different styles"
+msgstr ""
+"Feldolgozásra kerüljön-e a PangoMarkup a szövegben, hogy különböző "
+"stílusokat támogasson"
+
+#: src/goocanvastext.c:108
+msgid "Ellipsize"
+msgstr "Kihagyások"
+
+#: src/goocanvastext.c:109
+msgid ""
+"The preferred place to ellipsize the string, if the label does not have "
+"enough room to display the entire string"
+msgstr ""
+"A karakterlánc kihagyásainak előnyben részesített helye, amennyiben a címkén "
+"nincs elég hely a teljes karakterlánc megjelenítéséhez"
+
+#: src/goocanvastext.c:116
+msgid "Wrap"
+msgstr "Tördelés"
+
+#: src/goocanvastext.c:117
+msgid "The preferred method of wrapping the string if a width has been set"
+msgstr ""
+"A karakterlánc tördelésének előnyben részesített módszere, ha a szélesség "
+"meg lett adva"
+
+#: src/goocanvastext.c:126
+msgid "The x coordinate of the text"
+msgstr "A szöveg x koordinátája"
+
+#: src/goocanvastext.c:134
+msgid "The y coordinate of the text"
+msgstr "A szöveg y koordinátája"
+
+#: src/goocanvastext.c:142
+msgid ""
+"The width to use to layout the text, or -1 to let the text use as much "
+"horizontal space as needed"
+msgstr ""
+"A szöveg elrendezéséhez használt szélesség, vagy -1, hogy a szöveg annyi "
+"helyet használjon vízszintesen, amennyi szükséges"
+
+#: src/goocanvastext.c:150
+msgid ""
+"The height to use to layout the text, or -1 to let the text use as much "
+"vertical space as needed"
+msgstr ""
+"A szöveg elrendezéséhez használt magasság, vagy -1, hogy a szöveg annyi "
+"helyet használjon függőlegesen, amennyi szükséges"
+
+#: src/goocanvastext.c:159
+msgid "How to position the text relative to the given x and y coordinates"
+msgstr ""
+"Hogyan legyen pozicionálva a szöveg a megadott x és y koordinátákhoz képest"
+
+#: src/goocanvastext.c:166
+msgid "Alignment"
+msgstr "Igazítás"
+
+#: src/goocanvastext.c:167
+msgid "How to align the text"
+msgstr "Hogyan legyen igazítva a szöveg"
+
+#: src/goocanvaswidget.c:547
+msgid "Widget"
+msgstr "Felületi elem"
+
+#: src/goocanvaswidget.c:548
+msgid "The widget to place in the canvas"
+msgstr "A felületi elem, amelybe a vászon kerüljön"
+
+#: src/goocanvaswidget.c:555
+msgid "The x coordinate of the widget"
+msgstr "A felületi elem x koordinátája"
+
+#: src/goocanvaswidget.c:563
+msgid "The y coordinate of the widget"
+msgstr "A felületi elem y koordinátája"
+
+#: src/goocanvaswidget.c:571
+msgid "The width of the widget, or -1 to use its requested width"
+msgstr "A felületi elem szélessége, vagy -1, ha a kért szélességet használja"
+
+#: src/goocanvaswidget.c:579
+msgid "The height of the widget, or -1 to use its requested height"
+msgstr "A felületi elem magassága, vagy -1, ha a kért magasságot használja"
+
+#: src/goocanvaswidget.c:588
+msgid ""
+"How to position the widget relative to the item's x and y coordinate settings"
+msgstr ""
+"Hogyan legyen pozicionálva a felületi elem az elem x és y koordináta-"
+"beállításaihoz képest"
