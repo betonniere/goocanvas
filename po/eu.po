@@ -6,8 +6,8 @@
 msgid ""
 msgstr "Project-Id-Version: goocanvas goocanvas-2.0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/goocanvas/issues\n"
-"POT-Creation-Date: 2019-03-07 11:11+0000\n"
-"PO-Revision-Date: 2019-05-25 10:00+0100\n"
+"POT-Creation-Date: 2019-09-05 07:25+0000\n"
+"PO-Revision-Date: 2019-09-26 10:00+0100\n"
 "Last-Translator: Asier Sarasua Garmendia <asier.sarasua@gmail.com>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -22,7 +22,7 @@ msgstr "Eskalatu"
 
 #: src/goocanvas.c:311
 msgid "The magnification factor of the canvas"
-msgstr ""
+msgstr "Oihalaren handiagotze-faktorea"
 
 #: src/goocanvas.c:317
 msgid "Scale X"
@@ -30,7 +30,7 @@ msgstr "X eskala"
 
 #: src/goocanvas.c:318
 msgid "The horizontal magnification factor of the canvas"
-msgstr ""
+msgstr "Oihalaren handiagotze-faktore horizontala"
 
 #: src/goocanvas.c:324
 msgid "Scale Y"
@@ -38,7 +38,7 @@ msgstr "Y eskala"
 
 #: src/goocanvas.c:325
 msgid "The vertical magnification factor of the canvas"
-msgstr ""
+msgstr "Oihalaren handiagotze-faktore bertikala"
 
 #: src/goocanvas.c:331 src/goocanvastext.c:158 src/goocanvaswidget.c:587
 msgid "Anchor"
@@ -47,7 +47,7 @@ msgstr "Aingura"
 #: src/goocanvas.c:332
 msgid ""
 "Where to place the canvas when it is smaller than the widget's allocated area"
-msgstr ""
+msgstr "Non kokatuko den oihala trepetarentzat esleitutako area baino txikiagoa denean"
 
 #: src/goocanvas.c:339
 msgid "X1"
@@ -55,7 +55,7 @@ msgstr "X1"
 
 #: src/goocanvas.c:340
 msgid "The x coordinate of the left edge of the canvas bounds, in canvas units"
-msgstr ""
+msgstr "Oihal-mugaren ezkerreko ertzaren X koordenatua, oihal-unitatetan"
 
 #: src/goocanvas.c:347
 msgid "Y1"
@@ -63,7 +63,7 @@ msgstr "Y1"
 
 #: src/goocanvas.c:348
 msgid "The y coordinate of the top edge of the canvas bounds, in canvas units"
-msgstr ""
+msgstr "Oihal-mugaren goiko ertzaren Y koordenatua, oihal-unitatetan"
 
 #: src/goocanvas.c:355
 msgid "X2"
@@ -72,7 +72,7 @@ msgstr "X2"
 #: src/goocanvas.c:356
 msgid ""
 "The x coordinate of the right edge of the canvas bounds, in canvas units"
-msgstr ""
+msgstr "Oihal-mugaren eskuineko ertzaren X koordenatua, oihal-unitatetan"
 
 #: src/goocanvas.c:364
 msgid "Y2"
@@ -81,33 +81,33 @@ msgstr "Y2"
 #: src/goocanvas.c:365
 msgid ""
 "The y coordinate of the bottom edge of the canvas bounds, in canvas units"
-msgstr ""
+msgstr "Oihal-mugaren beheko ertzaren Y koordenatua, oihal-unitatetan"
 
 #: src/goocanvas.c:374
 msgid "Automatic Bounds"
-msgstr ""
+msgstr "Muga automatikoak"
 
 #: src/goocanvas.c:375
 msgid ""
 "If the bounds are automatically calculated based on the bounds of all the "
 "items in the canvas"
-msgstr ""
+msgstr "Mugak oihaleko elementu guztien mugetan oinarrituta automatikoki kalkulatuko diren ala ez"
 
 #: src/goocanvas.c:381
 msgid "Bounds From Origin"
-msgstr ""
+msgstr "Mugak jatorritik"
 
 #: src/goocanvas.c:382
 msgid "If the automatic bounds are calculated from the origin"
-msgstr ""
+msgstr "Muga automatikoak jatorritik kalkulatuko diren ala ez"
 
 #: src/goocanvas.c:388
 msgid "Bounds Padding"
-msgstr ""
+msgstr "Mugen betegarria"
 
 #: src/goocanvas.c:389
 msgid "The padding added to the automatic bounds"
-msgstr ""
+msgstr "Muga automatikoei gehitutako betegarria"
 
 #: src/goocanvas.c:395
 msgid "Units"
@@ -115,23 +115,23 @@ msgstr "Unitateak"
 
 #: src/goocanvas.c:396
 msgid "The units to use for the canvas"
-msgstr ""
+msgstr "Oihalerako erabiliko diren unitateak"
 
 #: src/goocanvas.c:403
 msgid "Resolution X"
-msgstr ""
+msgstr "X bereizmena"
 
 #: src/goocanvas.c:404
 msgid "The horizontal resolution of the display, in dots per inch"
-msgstr ""
+msgstr "Bistaratzearen bereizmen horizontala, puntuak hazbeteko"
 
 #: src/goocanvas.c:411
 msgid "Resolution Y"
-msgstr ""
+msgstr "Y bereizmena"
 
 #: src/goocanvas.c:412
 msgid "The vertical resolution of the display, in dots per inch"
-msgstr ""
+msgstr "Bistaratzearen bereizmen bertikala, puntuak hazbeteko"
 
 #: src/goocanvas.c:420
 msgid "Background Color"
@@ -139,33 +139,33 @@ msgstr "Atzeko planoaren kolorea"
 
 #: src/goocanvas.c:421
 msgid "The color to use for the canvas background"
-msgstr ""
+msgstr "Oihalaren atzeko planorako erabiliko den kolorea"
 
 #: src/goocanvas.c:427
 msgid "Background Color RGB"
-msgstr ""
+msgstr "Atzeko planaren kolorearen RGBa"
 
 #: src/goocanvas.c:428
 msgid ""
 "The color to use for the canvas background, specified as a 24-bit integer "
 "value, 0xRRGGBB"
-msgstr ""
+msgstr "Oihalaren atzeko planorako erabiliko den kolorea, 24 bit-eko balio oso gisa adierazita, 0xRRGGBB"
 
 #: src/goocanvas.c:441
 msgid "Background Color GdkRGBA"
-msgstr ""
+msgstr "Atzeko planoaren kolorearen GdkRGBA"
 
 #: src/goocanvas.c:442
 msgid "The color to use for the canvas background, specified as a GdkRGBA"
-msgstr ""
+msgstr "Oihalaren atzeko planorako erabiliko den kolorea, GdkRGBA gisa adierazita"
 
 #: src/goocanvas.c:448
 msgid "Integer Layout"
-msgstr ""
+msgstr "Balio osoko diseinua"
 
 #: src/goocanvas.c:449
 msgid "If all item layout is done to the nearest integer"
-msgstr ""
+msgstr "Elementu-diseinu bat balio oso hurbilenera doituko den ala ez"
 
 #: src/goocanvas.c:455
 msgid "Clear Background"
@@ -173,18 +173,18 @@ msgstr "Garbitu atzeko planoa"
 
 #: src/goocanvas.c:456
 msgid "If the background is cleared before the canvas is painted"
-msgstr ""
+msgstr "Atzeko planoa garbituko den ala ez oihala margotu baino lehen"
 
 #: src/goocanvas.c:462
 msgid "Redraw When Scrolled"
-msgstr ""
+msgstr "Marraztu berriro korritzean"
 
 #: src/goocanvas.c:463
 msgid ""
 "If the canvas is completely redrawn when scrolled, to reduce the flicker of "
 "static items. Note that since GTK+ 3.0 the canvas is always redrawn when "
 "scrolled, so this option has no effect."
-msgstr ""
+msgstr "Oihala osorik berriro marraztuko den ala ez pantaila korritzean, elementu estatikoen kliskatzea murrizteko. Kontuan izan GTK+ 3.0 bertsiotik aurrera, oihala beti berriro marraztuko dela pantaila korritzen denean, beraz kasu horretan aukera honek ez du eraginik."
 
 #: src/goocanvasellipse.c:77
 msgid "Center X"
@@ -192,7 +192,7 @@ msgstr "X zentroa"
 
 #: src/goocanvasellipse.c:78
 msgid "The x coordinate of the center of the ellipse"
-msgstr ""
+msgstr "Elipsearen zentroaren X koordenatua"
 
 #: src/goocanvasellipse.c:85
 msgid "Center Y"
@@ -200,31 +200,31 @@ msgstr "Y zentroa"
 
 #: src/goocanvasellipse.c:86
 msgid "The y coordinate of the center of the ellipse"
-msgstr ""
+msgstr "Elipsearen zentroaren Y koordenatua"
 
 #: src/goocanvasellipse.c:93 src/goocanvasrect.c:90
 msgid "Radius X"
-msgstr ""
+msgstr "X erradioa"
 
 #: src/goocanvasellipse.c:94
 msgid "The horizontal radius of the ellipse"
-msgstr ""
+msgstr "Elipsearen erradio horizontala"
 
 #: src/goocanvasellipse.c:100 src/goocanvasrect.c:97
 msgid "Radius Y"
-msgstr ""
+msgstr "Y erradioa"
 
 #: src/goocanvasellipse.c:101
 msgid "The vertical radius of the ellipse"
-msgstr ""
+msgstr "Elipsearen erradio bertikala"
 
 #: src/goocanvasellipse.c:108
 msgid "The x coordinate of the left side of the ellipse"
-msgstr ""
+msgstr "Elipsearen ezkerreko aldearen X koordenatua"
 
 #: src/goocanvasellipse.c:116
 msgid "The y coordinate of the top of the ellipse"
-msgstr ""
+msgstr "Elipsearen goiko aldearen Y koordenatua"
 
 #: src/goocanvasellipse.c:123 src/goocanvasgrid.c:127 src/goocanvasgroup.c:106
 #: src/goocanvasimage.c:115 src/goocanvaspath.c:93 src/goocanvaspolyline.c:246
@@ -234,7 +234,7 @@ msgstr "Zabalera"
 
 #: src/goocanvasellipse.c:124
 msgid "The width of the ellipse"
-msgstr ""
+msgstr "Elipsearen zabalera"
 
 #: src/goocanvasellipse.c:130 src/goocanvasgrid.c:134 src/goocanvasgroup.c:114
 #: src/goocanvasimage.c:122 src/goocanvaspath.c:100 src/goocanvaspolyline.c:253
@@ -244,71 +244,71 @@ msgstr "Altuera"
 
 #: src/goocanvasellipse.c:131
 msgid "The height of the ellipse"
-msgstr ""
+msgstr "Elipsearen altuera"
 
 #: src/goocanvasgrid.c:112
 msgid "The x coordinate of the grid"
-msgstr ""
+msgstr "Saretaren X koordenatua"
 
 #: src/goocanvasgrid.c:120
 msgid "The y coordinate of the grid"
-msgstr ""
+msgstr "Saretaren Y koordenatua"
 
 #: src/goocanvasgrid.c:128
 msgid "The width of the grid"
-msgstr ""
+msgstr "Saretaren zabalera"
 
 #: src/goocanvasgrid.c:135
 msgid "The height of the grid"
-msgstr ""
+msgstr "Saretaren altuera"
 
 #: src/goocanvasgrid.c:142
 msgid "The distance between the vertical grid lines"
-msgstr ""
+msgstr "Sareta-marra bertikalen arteko distantzia"
 
 #: src/goocanvasgrid.c:149
 msgid "The distance between the horizontal grid lines"
-msgstr ""
+msgstr "Sareta-marra horizontalen arteko distantzia"
 
 #: src/goocanvasgrid.c:156
 msgid "The distance before the first vertical grid line"
-msgstr ""
+msgstr "Lehen sareta-marra bertikalaren aurreko distantzia"
 
 #: src/goocanvasgrid.c:163
 msgid "The distance before the first horizontal grid line"
-msgstr ""
+msgstr "Lehen sareta-marra horizontalaren aurreko distantzia"
 
 #: src/goocanvasgrid.c:169 src/goocanvastable.c:276
 msgid "Horizontal Grid Line Width"
-msgstr ""
+msgstr "Sareta-marra horizontalen zabalera"
 
 #: src/goocanvasgrid.c:170
 msgid "The width of the horizontal grid lines"
-msgstr ""
+msgstr "Sareta-marra horizontalen zabalera"
 
 #: src/goocanvasgrid.c:177 src/goocanvastable.c:283
 msgid "Vertical Grid Line Width"
-msgstr ""
+msgstr "Sareta-marra bertikalen zabalera"
 
 #: src/goocanvasgrid.c:178
 msgid "The width of the vertical grid lines"
-msgstr ""
+msgstr "Sareta-marra bertikalen zabalera"
 
 #: src/goocanvasgrid.c:185
 msgid "Horizontal Grid Line Pattern"
-msgstr ""
+msgstr "Sareta-marra horizontalen eredua"
 
 #: src/goocanvasgrid.c:186
 msgid "The cairo pattern to paint the horizontal grid lines with"
-msgstr ""
+msgstr "Sareta-marra horizontalak margotzeko erabiliko den Cairo eredua"
 
 #: src/goocanvasgrid.c:192
 msgid "Vertical Grid Line Pattern"
-msgstr ""
+msgstr "Sareta-marra bertikalen eredua"
 
 #: src/goocanvasgrid.c:193
 msgid "The cairo pattern to paint the vertical grid lines with"
-msgstr ""
+msgstr "Sareta-marra bertikalak margotzeko erabiliko den Cairo eredua"
 
 #: src/goocanvasgrid.c:199
 msgid "Border Width"
@@ -316,65 +316,65 @@ msgstr "Ertzaren zabalera"
 
 #: src/goocanvasgrid.c:200
 msgid "The width of the border around the grid"
-msgstr ""
+msgstr "Saretaren inguruko ertzaren zabalera"
 
 #: src/goocanvasgrid.c:207
 msgid "Border Pattern"
-msgstr ""
+msgstr "Ertzaren eredua"
 
 #: src/goocanvasgrid.c:208
 msgid "The cairo pattern to paint the border with"
-msgstr ""
+msgstr "Ertza margotzeko erabiliko den Cairo eredua"
 
 #: src/goocanvasgrid.c:214
 msgid "Show Horizontal Grid Lines"
-msgstr ""
+msgstr "Erakutsi sareta-marra horizontalak"
 
 #: src/goocanvasgrid.c:215
 msgid "If the horizontal grid lines are shown"
-msgstr ""
+msgstr "Sareta-marra horizontalak erakutsiko diren ala ez"
 
 #: src/goocanvasgrid.c:221
 msgid "Show Vertical Grid Lines"
-msgstr ""
+msgstr "Erakutsi sareta-marra bertikalak"
 
 #: src/goocanvasgrid.c:222
 msgid "If the vertical grid lines are shown"
-msgstr ""
+msgstr "Sareta-marra bertikalak erakutsiko diren ala ez"
 
 #: src/goocanvasgrid.c:228
 msgid "Vertical Grid Lines On Top"
-msgstr ""
+msgstr "Sareta-marra bertikalak gainean"
 
 #: src/goocanvasgrid.c:229
 msgid "If the vertical grid lines are painted above the horizontal grid lines"
-msgstr ""
+msgstr "Sareta-marra bertikalak sareta-marra horizontalen gainetik margotuko diren ala ez"
 
 #: src/goocanvasgrid.c:237
 msgid "Horizontal Grid Line Color"
-msgstr ""
+msgstr "Sareta-marra horizontalen kolorea"
 
 #: src/goocanvasgrid.c:238
 msgid "The color to use for the horizontal grid lines"
-msgstr ""
+msgstr "Sareta-marra horizontalek izango duten kolorea"
 
 #: src/goocanvasgrid.c:244
 msgid "Horizontal Grid Line Color RGBA"
-msgstr ""
+msgstr "Sareta-marra horizontalen kolorea RGBA"
 
 #: src/goocanvasgrid.c:245
 msgid ""
 "The color to use for the horizontal grid lines, specified as a 32-bit "
 "integer value"
-msgstr ""
+msgstr "Sareta-marra horizontalek izango duten kolorea, 32 bit-eko balio oso gisa adierazita"
 
 #: src/goocanvasgrid.c:258
 msgid "Horizontal Grid Line Color GdkRGBA"
-msgstr ""
+msgstr "Sareta-marra horizontalen kolorea GdkRGBA"
 
 #: src/goocanvasgrid.c:259
 msgid "The color to use for the horizontal grid lines, specified as a GdkRGBA"
-msgstr ""
+msgstr "Sareta-marra horizontalek izango duten kolorea, GdkRGBA gisa adierazita"
 
 #: src/goocanvasgrid.c:265
 msgid "Horizontal Grid Line Pixbuf"
@@ -452,19 +452,19 @@ msgstr ""
 
 #: src/goocanvasgroup.c:91
 msgid "The x coordinate of the group"
-msgstr ""
+msgstr "Taldearen X koordenatua"
 
 #: src/goocanvasgroup.c:99
 msgid "The y coordinate of the group"
-msgstr ""
+msgstr "Taldearen Y koordenatua"
 
 #: src/goocanvasgroup.c:107
 msgid "The width of the group, or -1 to use the default width"
-msgstr ""
+msgstr "Taldearen zabalera, edo -1 zabalera lehenetsia erabiltzeko"
 
 #: src/goocanvasgroup.c:115
 msgid "The height of the group, or -1 to use the default height"
-msgstr ""
+msgstr "Taldearen altuera, edo -1 altuera lehenetsia erabiltzeko"
 
 #: src/goocanvasimage.c:92
 msgid "Pattern"
@@ -472,31 +472,31 @@ msgstr "Eredua"
 
 #: src/goocanvasimage.c:93
 msgid "The cairo pattern to paint"
-msgstr ""
+msgstr "Margotuko den Cairo eredua"
 
 #: src/goocanvasimage.c:100
 msgid "The x coordinate of the image"
-msgstr ""
+msgstr "Irudiaren X koordenatua"
 
 #: src/goocanvasimage.c:108
 msgid "The y coordinate of the image"
-msgstr ""
+msgstr "Irudiaren Y koordenatua"
 
 #: src/goocanvasimage.c:116
 msgid "The width of the image"
-msgstr ""
+msgstr "Irudiaren zabalera"
 
 #: src/goocanvasimage.c:123
 msgid "The height of the image"
-msgstr ""
+msgstr "Irudiaren altuera"
 
 #: src/goocanvasimage.c:129
 msgid "Scale To Fit"
-msgstr ""
+msgstr "Eskalatu doitzeko"
 
 #: src/goocanvasimage.c:130
 msgid "If the image is scaled to fit the width and height settings"
-msgstr ""
+msgstr "Irudia eskalatuko den ala ez altuerako eta zabalerako ezarpenetara doitzeko"
 
 #: src/goocanvasimage.c:136
 msgid "Alpha"
@@ -504,7 +504,7 @@ msgstr "Alfa"
 
 #: src/goocanvasimage.c:137
 msgid "The opacity of the image, 0.0 is fully transparent, and 1.0 is opaque."
-msgstr ""
+msgstr "Irudiaren opakutasuna, 0.0 osorik gardena da eta 1.0 opakua da."
 
 #: src/goocanvasimage.c:143
 msgid "Pixbuf"
@@ -516,11 +516,11 @@ msgstr "Bistaratu beharreko GdkPixbuf"
 
 #: src/goocanvasitem.c:467 src/goocanvasitemmodel.c:224
 msgid "Parent"
-msgstr "Parent"
+msgstr "Gurasoa"
 
 #: src/goocanvasitem.c:468
 msgid "The parent item"
-msgstr ""
+msgstr "Guraso elementua"
 
 #: src/goocanvasitem.c:474 src/goocanvasitemmodel.c:231
 msgid "Visibility"
@@ -528,15 +528,15 @@ msgstr "Ikusgaitasuna"
 
 #: src/goocanvasitem.c:475 src/goocanvasitemmodel.c:232
 msgid "When the canvas item is visible"
-msgstr ""
+msgstr "Oihal-elementua ikusgai dagoenean"
 
 #: src/goocanvasitem.c:482 src/goocanvasitemmodel.c:239
 msgid "Visibility Threshold"
-msgstr ""
+msgstr "Ikusgaitasun-atalasea"
 
 #: src/goocanvasitem.c:483 src/goocanvasitemmodel.c:240
 msgid "The scale threshold at which the item becomes visible"
-msgstr ""
+msgstr "Elementua ikusgai egongo den eskala-atalasea"
 
 #: src/goocanvasitem.c:491 src/goocanvasitemmodel.c:248
 msgid "Transform"
@@ -544,15 +544,15 @@ msgstr "Eraldaketa"
 
 #: src/goocanvasitem.c:492 src/goocanvasitemmodel.c:249
 msgid "The transformation matrix of the item"
-msgstr ""
+msgstr "Elementuaren eraldaketa-matrizea"
 
 #: src/goocanvasitem.c:498 src/goocanvasitemmodel.c:255
 msgid "Pointer Events"
-msgstr ""
+msgstr "Erakuslearen gertaerak"
 
 #: src/goocanvasitem.c:499 src/goocanvasitemmodel.c:256
 msgid "Specifies when the item receives pointer events"
-msgstr ""
+msgstr "Elementuak erakuslearen gertaerak jasotzen dituen ala ez zehazten du"
 
 #: src/goocanvasitem.c:506 src/goocanvasitemmodel.c:263
 msgid "Title"
@@ -574,11 +574,11 @@ msgstr ""
 
 #: src/goocanvasitem.c:520 src/goocanvasitemmodel.c:277
 msgid "Can Focus"
-msgstr ""
+msgstr "Enfoka dezake"
 
 #: src/goocanvasitem.c:521 src/goocanvasitemmodel.c:278
 msgid "If the item can take the keyboard focus"
-msgstr ""
+msgstr "Elementuak teklatuaren fokua har dezakeen ala ez"
 
 #: src/goocanvasitem.c:536 src/goocanvasitemmodel.c:284
 msgid "Tooltip"
@@ -586,35 +586,35 @@ msgstr "Argibidea"
 
 #: src/goocanvasitem.c:537 src/goocanvasitemmodel.c:285
 msgid "The tooltip to display for the item"
-msgstr ""
+msgstr "Elementuan erakutsiko den argibidea"
 
 #: src/goocanvasitemmodel.c:225
 msgid "The parent item model"
-msgstr ""
+msgstr "Guraso elementuaren eredua"
 
 #: src/goocanvasitemsimple.c:128
 msgid "Stroke Pattern"
-msgstr ""
+msgstr "Trazu-eredua"
 
 #: src/goocanvasitemsimple.c:129
 msgid ""
 "The pattern to use to paint the perimeter of the item, or NULL disable "
 "painting"
-msgstr ""
+msgstr "Elementuaren perimetroa margotzeko erabiliko den eredua, edo NULL margotzea desgaitzeko"
 
 #: src/goocanvasitemsimple.c:135
 msgid "Fill Pattern"
-msgstr ""
+msgstr "Betegarri-eredua"
 
 #: src/goocanvasitemsimple.c:136
 msgid ""
 "The pattern to use to paint the interior of the item, or NULL to disable "
 "painting"
-msgstr ""
+msgstr "Elementuaren barnealdea margotzeko erabiliko den eredua, edo NULL margotzea desgaitzeko"
 
 #: src/goocanvasitemsimple.c:142
 msgid "Fill Rule"
-msgstr ""
+msgstr "Betegarri-araua"
 
 #: src/goocanvasitemsimple.c:143
 msgid "The fill rule used to determine which parts of the item are filled"
@@ -622,19 +622,19 @@ msgstr ""
 
 #: src/goocanvasitemsimple.c:150
 msgid "Operator"
-msgstr ""
+msgstr "Eragilea"
 
 #: src/goocanvasitemsimple.c:151
 msgid "The compositing operator to use"
-msgstr ""
+msgstr "Erabiliko den konposizio-eragilea"
 
 #: src/goocanvasitemsimple.c:158
 msgid "Antialias"
-msgstr ""
+msgstr "Antialias-a"
 
 #: src/goocanvasitemsimple.c:159
 msgid "The antialiasing mode to use"
-msgstr ""
+msgstr "Erabiliko den antialias modua"
 
 #: src/goocanvasitemsimple.c:167
 msgid "Line Width"
@@ -642,7 +642,7 @@ msgstr "Marra-zabalera"
 
 #: src/goocanvasitemsimple.c:168
 msgid "The line width to use for the item's perimeter"
-msgstr ""
+msgstr "Elementuaren perimetroan erabiliko den marra-zabalera"
 
 #: src/goocanvasitemsimple.c:174
 msgid "Line Cap"
@@ -684,7 +684,7 @@ msgstr "Letra-tipoa"
 
 #: src/goocanvasitemsimple.c:206
 msgid "The base font to use for the text"
-msgstr ""
+msgstr "Testurako erabiliko den oinarriko letra-tipoa"
 
 #: src/goocanvasitemsimple.c:212
 msgid "Font Description"
@@ -692,7 +692,7 @@ msgstr "Letra-tipoen deskribapena"
 
 #: src/goocanvasitemsimple.c:213
 msgid "The attributes specifying which font to use"
-msgstr ""
+msgstr "Zein letra-tipo erabiliko den zehazten duten atributuak"
 
 #: src/goocanvasitemsimple.c:219
 msgid "Hint Metrics"
@@ -704,7 +704,7 @@ msgstr ""
 
 #: src/goocanvasitemsimple.c:228
 msgid "Stroke Color"
-msgstr ""
+msgstr "Trazu-kolorea"
 
 #: src/goocanvasitemsimple.c:229
 msgid ""
@@ -714,7 +714,7 @@ msgstr ""
 
 #: src/goocanvasitemsimple.c:235
 msgid "Stroke Color RGBA"
-msgstr ""
+msgstr "Trazu-kolorea RGBA"
 
 #: src/goocanvasitemsimple.c:236
 msgid ""
@@ -724,7 +724,7 @@ msgstr ""
 
 #: src/goocanvasitemsimple.c:249
 msgid "Stroke Color GdkRGBA"
-msgstr ""
+msgstr "Trazu-kolorea GdkRGBA"
 
 #: src/goocanvasitemsimple.c:250
 msgid ""
@@ -744,7 +744,7 @@ msgstr ""
 
 #: src/goocanvasitemsimple.c:263
 msgid "Fill Color"
-msgstr ""
+msgstr "Betegarri-kolorea"
 
 #: src/goocanvasitemsimple.c:264
 msgid ""
@@ -754,7 +754,7 @@ msgstr ""
 
 #: src/goocanvasitemsimple.c:270
 msgid "Fill Color RGBA"
-msgstr ""
+msgstr "Betegarri-kolorea RGBA"
 
 #: src/goocanvasitemsimple.c:271
 msgid ""
@@ -764,7 +764,7 @@ msgstr ""
 
 #: src/goocanvasitemsimple.c:284
 msgid "Fill Color GdkRGBA"
-msgstr ""
+msgstr "Betegarri-kolorea GdkRGBA"
 
 #: src/goocanvasitemsimple.c:285
 msgid ""
@@ -784,11 +784,11 @@ msgstr ""
 
 #: src/goocanvasitemsimple.c:342
 msgid "Clip Path"
-msgstr ""
+msgstr "Mozte-bidea"
 
 #: src/goocanvasitemsimple.c:343
 msgid "The sequence of path commands specifying the clip path"
-msgstr ""
+msgstr "Mozte-bidea zehazten duen bide-komandoen sekuentzia"
 
 #: src/goocanvasitemsimple.c:349
 msgid "Clip Fill Rule"
@@ -808,19 +808,19 @@ msgstr ""
 
 #: src/goocanvaspath.c:78
 msgid "The x coordinate of the path"
-msgstr ""
+msgstr "Bidearen X koordenatua"
 
 #: src/goocanvaspath.c:86
 msgid "The y coordinate of the path"
-msgstr ""
+msgstr "Bidearen Y koordenatua"
 
 #: src/goocanvaspath.c:94
 msgid "The width of the path"
-msgstr ""
+msgstr "Bidearen zabalera"
 
 #: src/goocanvaspath.c:101
 msgid "The height of the path"
-msgstr ""
+msgstr "Bidearen altuera"
 
 #: src/goocanvaspolyline.c:181
 msgid "Points"
@@ -836,7 +836,7 @@ msgstr "Itxi bidea"
 
 #: src/goocanvaspolyline.c:189
 msgid "If the last point should be connected to the first"
-msgstr ""
+msgstr "Azken puntua eta lehena konektatuta egon behar duten ala ez"
 
 #: src/goocanvaspolyline.c:195
 msgid "Start Arrow"
@@ -844,7 +844,7 @@ msgstr "Hasierako gezia"
 
 #: src/goocanvaspolyline.c:196
 msgid "If an arrow should be displayed at the start of the polyline"
-msgstr ""
+msgstr "Gezi bat erakutsi behar den ala ez polilerroaren hasieran"
 
 #: src/goocanvaspolyline.c:202
 msgid "End Arrow"
@@ -852,11 +852,11 @@ msgstr "Amaierako gezia"
 
 #: src/goocanvaspolyline.c:203
 msgid "If an arrow should be displayed at the end of the polyline"
-msgstr ""
+msgstr "Gezi bat erakutsi behar den ala ez polilerroaren amaieran"
 
 #: src/goocanvaspolyline.c:209
 msgid "Arrow Length"
-msgstr ""
+msgstr "Geziaren luzera"
 
 #: src/goocanvaspolyline.c:210
 msgid "The length of the arrows, as a multiple of the line width"
@@ -864,7 +864,7 @@ msgstr ""
 
 #: src/goocanvaspolyline.c:216
 msgid "Arrow Width"
-msgstr ""
+msgstr "Geziaren zabalera"
 
 #: src/goocanvaspolyline.c:217
 msgid "The width of the arrows, as a multiple of the line width"
@@ -888,35 +888,35 @@ msgstr ""
 
 #: src/goocanvaspolyline.c:247
 msgid "The width of the polyline"
-msgstr ""
+msgstr "Polilerroaren zabalera"
 
 #: src/goocanvaspolyline.c:254
 msgid "The height of the polyline"
-msgstr ""
+msgstr "Polilerroaren altuera"
 
 #: src/goocanvasrect.c:61
 msgid "The x coordinate of the rectangle"
-msgstr ""
+msgstr "Laukizuzenaren X koordenatua"
 
 #: src/goocanvasrect.c:69
 msgid "The y coordinate of the rectangle"
-msgstr ""
+msgstr "Laukizuzenaren Y koordenatua"
 
 #: src/goocanvasrect.c:77
 msgid "The width of the rectangle"
-msgstr ""
+msgstr "Laukizuzenaren zabalera"
 
 #: src/goocanvasrect.c:84
 msgid "The height of the rectangle"
-msgstr ""
+msgstr "Laukizuzenaren altuera"
 
 #: src/goocanvasrect.c:91
 msgid "The horizontal radius to use for rounded corners"
-msgstr ""
+msgstr "Izkina biribilduetan erabiliko den erradio horizontala"
 
 #: src/goocanvasrect.c:98
 msgid "The vertical radius to use for rounded corners"
-msgstr ""
+msgstr "Izkina biribilduetan erabiliko den erradio bertikala"
 
 #: src/goocanvastable.c:237
 msgid "Row Spacing"
@@ -924,7 +924,7 @@ msgstr "Errenkaden arteko tartea"
 
 #: src/goocanvastable.c:238
 msgid "The default space between rows"
-msgstr ""
+msgstr "Errenkaden arteko tarte lehenetsia"
 
 #: src/goocanvastable.c:244
 msgid "Column Spacing"
@@ -932,27 +932,27 @@ msgstr "Zutabeen arteko tartea"
 
 #: src/goocanvastable.c:245
 msgid "The default space between columns"
-msgstr ""
+msgstr "Zutabeen arteko tarte lehenetsia"
 
 #: src/goocanvastable.c:251
 msgid "Homogenous Rows"
-msgstr ""
+msgstr "Errenkada homogeneoak"
 
 #: src/goocanvastable.c:252
 msgid "If all rows are the same height"
-msgstr ""
+msgstr "Errenkadak altuera berekoak diren ala ez"
 
 #: src/goocanvastable.c:258
 msgid "Homogenous Columns"
-msgstr ""
+msgstr "Zutabe homogeneoak"
 
 #: src/goocanvastable.c:259
 msgid "If all columns are the same width"
-msgstr ""
+msgstr "Zutabeak zabalera berekoak diren ala ez"
 
 #: src/goocanvastable.c:264
 msgid "X Border Spacing"
-msgstr ""
+msgstr "X ertzaren tartea"
 
 #: src/goocanvastable.c:265
 msgid ""
@@ -962,7 +962,7 @@ msgstr ""
 
 #: src/goocanvastable.c:270
 msgid "Y Border Spacing"
-msgstr ""
+msgstr "Y ertzaren tartea"
 
 #: src/goocanvastable.c:271
 msgid ""
@@ -972,47 +972,47 @@ msgstr ""
 
 #: src/goocanvastable.c:277
 msgid "The width of the grid line to draw between rows"
-msgstr ""
+msgstr "Errenkaden artean marraztuko den sareta-marraren zabalera"
 
 #: src/goocanvastable.c:284
 msgid "The width of the grid line to draw between columns"
-msgstr ""
+msgstr "Zutabeen artean marraztuko den sareta-marraren zabalera"
 
 #: src/goocanvastable.c:293
 msgid "Left Padding"
-msgstr ""
+msgstr "Ezkerreko betegarria"
 
 #: src/goocanvastable.c:294
 msgid "Extra space to add to the left of the item"
-msgstr ""
+msgstr "Elementuaren ezkerrean gehituko den espazio gehigarria"
 
 #: src/goocanvastable.c:299
 msgid "Right Padding"
-msgstr ""
+msgstr "Eskuineko betegarria"
 
 #: src/goocanvastable.c:300
 msgid "Extra space to add to the right of the item"
-msgstr ""
+msgstr "Elementuaren eskuinean gehituko den espazio gehigarria"
 
 #: src/goocanvastable.c:305
 msgid "Top Padding"
-msgstr ""
+msgstr "Goiko betegarria"
 
 #: src/goocanvastable.c:306
 msgid "Extra space to add above the item"
-msgstr ""
+msgstr "Elementuaren goialdean gehituko den espazio gehigarria"
 
 #: src/goocanvastable.c:311
 msgid "Bottom Padding"
-msgstr ""
+msgstr "Beheko betegarria"
 
 #: src/goocanvastable.c:312
 msgid "Extra space to add below the item"
-msgstr ""
+msgstr "Elementuaren behealdean gehituko den espazio gehigarria"
 
 #: src/goocanvastable.c:318
 msgid "X Align"
-msgstr ""
+msgstr "X lerrokatzea"
 
 #: src/goocanvastable.c:319
 msgid ""
@@ -1022,7 +1022,7 @@ msgstr ""
 
 #: src/goocanvastable.c:324
 msgid "Y Align"
-msgstr ""
+msgstr "Y lerrokatzea"
 
 #: src/goocanvastable.c:325
 msgid ""
@@ -1036,7 +1036,7 @@ msgstr "Errenkada"
 
 #: src/goocanvastable.c:332
 msgid "The row to place the item in"
-msgstr ""
+msgstr "Elementua zein errenkadan kokatuko den"
 
 #: src/goocanvastable.c:337
 msgid "Column"
@@ -1044,7 +1044,7 @@ msgstr "Zutabea"
 
 #: src/goocanvastable.c:338
 msgid "The column to place the item in"
-msgstr ""
+msgstr "Elementua zein zutabetan kokatuko den"
 
 #: src/goocanvastable.c:343
 msgid "Rows"
@@ -1052,7 +1052,7 @@ msgstr "Errenkadak"
 
 #: src/goocanvastable.c:344
 msgid "The number of rows that the item spans"
-msgstr ""
+msgstr "Elementuak betetzen duen errenkada kopurua"
 
 #: src/goocanvastable.c:349
 msgid "Columns"
@@ -1060,7 +1060,7 @@ msgstr "Zutabeak"
 
 #: src/goocanvastable.c:350
 msgid "The number of columns that the item spans"
-msgstr ""
+msgstr "Elementuak betetzen duen zutabe kopurua"
 
 #: src/goocanvastable.c:356
 msgid "X Expand"
@@ -1068,15 +1068,15 @@ msgstr "X hedapena"
 
 #: src/goocanvastable.c:357
 msgid "If the item expands horizontally as the table expands"
-msgstr ""
+msgstr "Elementua horizontalean hedatuko den ala ez taula hedatzean"
 
 #: src/goocanvastable.c:362
 msgid "X Fill"
-msgstr ""
+msgstr "X betegarria"
 
 #: src/goocanvastable.c:363
 msgid "If the item fills all horizontal allocated space"
-msgstr ""
+msgstr "Elementuak horizontalean esleitutako espazio osoa beteko duen ala ez"
 
 #: src/goocanvastable.c:368
 msgid "X Shrink"
@@ -1092,15 +1092,15 @@ msgstr "Y hedapena"
 
 #: src/goocanvastable.c:375
 msgid "If the item expands vertically as the table expands"
-msgstr ""
+msgstr "Elementua bertikalean hedatuko den ala ez taula hedatzean"
 
 #: src/goocanvastable.c:380
 msgid "Y Fill"
-msgstr ""
+msgstr "Y betegarria"
 
 #: src/goocanvastable.c:381
 msgid "If the item fills all vertical allocated space"
-msgstr ""
+msgstr "Elementuak bertikalean esleitutako espazio osoa beteko duen ala ez"
 
 #: src/goocanvastable.c:386
 msgid "Y Shrink"
@@ -1142,15 +1142,15 @@ msgstr "Itzulbiratu"
 
 #: src/goocanvastext.c:117
 msgid "The preferred method of wrapping the string if a width has been set"
-msgstr ""
+msgstr "Katea egokitzeko metodo hobetsia, zabalera bat ezarri bada"
 
 #: src/goocanvastext.c:126
 msgid "The x coordinate of the text"
-msgstr ""
+msgstr "Testuaren X koordenatua"
 
 #: src/goocanvastext.c:134
 msgid "The y coordinate of the text"
-msgstr ""
+msgstr "Testuaren Y koordenatua"
 
 #: src/goocanvastext.c:142
 msgid ""
@@ -1186,19 +1186,19 @@ msgstr "Oihalean kokatuko den trepeta"
 
 #: src/goocanvaswidget.c:555
 msgid "The x coordinate of the widget"
-msgstr ""
+msgstr "Trepetaren X koordenatua"
 
 #: src/goocanvaswidget.c:563
 msgid "The y coordinate of the widget"
-msgstr ""
+msgstr "Trepetaren Y koordenatua"
 
 #: src/goocanvaswidget.c:571
 msgid "The width of the widget, or -1 to use its requested width"
-msgstr ""
+msgstr "Trepetaren zabalera, edo -1 eskatutako zabalera erabilia izan dadin"
 
 #: src/goocanvaswidget.c:579
 msgid "The height of the widget, or -1 to use its requested height"
-msgstr ""
+msgstr "Trepetaren altuera, edo -1 eskatutako altuera erabilia izan dadin"
 
 #: src/goocanvaswidget.c:588
 msgid ""
