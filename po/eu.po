@@ -6,8 +6,8 @@
 msgid ""
 msgstr "Project-Id-Version: goocanvas goocanvas-2.0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/goocanvas/issues\n"
-"POT-Creation-Date: 2019-09-05 07:25+0000\n"
-"PO-Revision-Date: 2019-09-26 10:00+0100\n"
+"POT-Creation-Date: 2019-09-26 13:08+0000\n"
+"PO-Revision-Date: 2019-10-25 10:00+0100\n"
 "Last-Translator: Asier Sarasua Garmendia <asier.sarasua@gmail.com>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
@@ -378,45 +378,45 @@ msgstr "Sareta-marra horizontalek izango duten kolorea, GdkRGBA gisa adierazita"
 
 #: src/goocanvasgrid.c:265
 msgid "Horizontal Grid Line Pixbuf"
-msgstr ""
+msgstr "Sareta-marra horizontalen pixbuf-a"
 
 #: src/goocanvasgrid.c:266
 msgid "The pixbuf to use to draw the horizontal grid lines"
-msgstr ""
+msgstr "Sareta-marra horizontalak marrazteko erabiliko den pixbuf-a"
 
 #: src/goocanvasgrid.c:272
 msgid "Vertical Grid Line Color"
-msgstr ""
+msgstr "Sareta-marra bertikalen kolorea"
 
 #: src/goocanvasgrid.c:273
 msgid "The color to use for the vertical grid lines"
-msgstr ""
+msgstr "Sareta-marra bertikalek izango duten kolorea"
 
 #: src/goocanvasgrid.c:279
 msgid "Vertical Grid Line Color RGBA"
-msgstr ""
+msgstr "Sareta-marra bertikalen kolorea RGBA"
 
 #: src/goocanvasgrid.c:280
 msgid ""
 "The color to use for the vertical grid lines, specified as a 32-bit integer "
 "value"
-msgstr ""
+msgstr "Sareta-marra bertikalek izango duten kolorea, 32 bit-eko balio oso gisa adierazita"
 
 #: src/goocanvasgrid.c:293
 msgid "Vertical Grid Line Color GdkRGBA"
-msgstr ""
+msgstr "Sareta-marra bertikalen kolorea GdkRGBA"
 
 #: src/goocanvasgrid.c:294
 msgid "The color to use for the vertical grid lines, specified as a GdkRGBA"
-msgstr ""
+msgstr "Sareta-marra bertikalek izango duten kolorea, GdkRGBA gisa adierazita"
 
 #: src/goocanvasgrid.c:300
 msgid "Vertical Grid Line Pixbuf"
-msgstr ""
+msgstr "Sareta-marra bertikalen pixbuf-a"
 
 #: src/goocanvasgrid.c:301
 msgid "The pixbuf to use to draw the vertical grid lines"
-msgstr ""
+msgstr "Sareta-marra bertikalak marrazteko erabiliko den pixbuf-a"
 
 #: src/goocanvasgrid.c:307
 msgid "Border Color"
@@ -424,31 +424,31 @@ msgstr "Ertzaren kolorea"
 
 #: src/goocanvasgrid.c:308
 msgid "The color to use for the border"
-msgstr ""
+msgstr "Ertzerako erabiliko den kolorea"
 
 #: src/goocanvasgrid.c:314
 msgid "Border Color RGBA"
-msgstr ""
+msgstr "Ertzaren kolorea RGBA"
 
 #: src/goocanvasgrid.c:315
 msgid "The color to use for the border, specified as a 32-bit integer value"
-msgstr ""
+msgstr "Ertzean erabiliko den kolorea, 32 bit-eko balio oso gisa adierazita"
 
 #: src/goocanvasgrid.c:328
 msgid "Border Color GdkRGBA"
-msgstr ""
+msgstr "Ertzaren kolorea GdkRGBA"
 
 #: src/goocanvasgrid.c:329
 msgid "The color to use for the border, specified as a GdkRGBA"
-msgstr ""
+msgstr "Ertzean erabiliko den kolorea, GdkRGBA gisa adierazita"
 
 #: src/goocanvasgrid.c:335
 msgid "Border Pixbuf"
-msgstr ""
+msgstr "Ertzaren pixbuf-a"
 
 #: src/goocanvasgrid.c:336
 msgid "The pixbuf to use to draw the border"
-msgstr ""
+msgstr "Ertza marrazteko erabiliko den pixbuf-a"
 
 #: src/goocanvasgroup.c:91
 msgid "The x coordinate of the group"
@@ -562,7 +562,7 @@ msgstr "Titulua"
 msgid ""
 "A short context-rich description of the item for use by assistive "
 "technologies"
-msgstr ""
+msgstr "Elementuaren deskribapen labur eta testuinguruan aberatsa, laguntza-teknologietan erabiliko dena"
 
 #: src/goocanvasitem.c:513 src/goocanvasitemmodel.c:270
 msgid "Description"
@@ -570,7 +570,7 @@ msgstr "Azalpena"
 
 #: src/goocanvasitem.c:514 src/goocanvasitemmodel.c:271
 msgid "A description of the item for use by assistive technologies"
-msgstr ""
+msgstr "Elementuaren deskribapena, laguntza-teknologietan erabiliko dena"
 
 #: src/goocanvasitem.c:520 src/goocanvasitemmodel.c:277
 msgid "Can Focus"
@@ -614,11 +614,11 @@ msgstr "Elementuaren barnealdea margotzeko erabiliko den eredua, edo NULL margot
 
 #: src/goocanvasitemsimple.c:142
 msgid "Fill Rule"
-msgstr "Betegarri-araua"
+msgstr "Betetze-araua"
 
 #: src/goocanvasitemsimple.c:143
 msgid "The fill rule used to determine which parts of the item are filled"
-msgstr ""
+msgstr "Elementuaren zein zati beteko diren zehazteko erabiliko den betetze-araua"
 
 #: src/goocanvasitemsimple.c:150
 msgid "Operator"
@@ -646,37 +646,37 @@ msgstr "Elementuaren perimetroan erabiliko den marra-zabalera"
 
 #: src/goocanvasitemsimple.c:174
 msgid "Line Cap"
-msgstr ""
+msgstr "Marra-estalkia"
 
 #: src/goocanvasitemsimple.c:175
 msgid "The line cap style to use"
-msgstr ""
+msgstr "Erabiliko den marra-estalkiaren estiloa"
 
 #: src/goocanvasitemsimple.c:182
 msgid "Line Join"
-msgstr ""
+msgstr "Marra-elkartzea"
 
 #: src/goocanvasitemsimple.c:183
 msgid "The line join style to use"
-msgstr ""
+msgstr "Erabiliko den marra-elkartzearen estiloa"
 
 #: src/goocanvasitemsimple.c:190
 msgid "Miter Limit"
-msgstr ""
+msgstr "Inglete-muga"
 
 #: src/goocanvasitemsimple.c:191
 msgid ""
 "The smallest angle to use with miter joins, in degrees. Bevel joins will be "
 "used below this limit"
-msgstr ""
+msgstr "Inglete-elkartzeak erabiltzeko angelurik txikiena. Muga horren azpitik, alaka-elkartzeak erabiliko dira"
 
 #: src/goocanvasitemsimple.c:197
 msgid "Line Dash"
-msgstr ""
+msgstr "Marratxo-eredua"
 
 #: src/goocanvasitemsimple.c:198
 msgid "The dash pattern to use"
-msgstr ""
+msgstr "Erabiliko den marratxo-eredua"
 
 #: src/goocanvasitemsimple.c:205
 msgid "Font"
@@ -696,11 +696,11 @@ msgstr "Zein letra-tipo erabiliko den zehazten duten atributuak"
 
 #: src/goocanvasitemsimple.c:219
 msgid "Hint Metrics"
-msgstr ""
+msgstr "Atxiki metrikak"
 
 #: src/goocanvasitemsimple.c:220
 msgid "The hinting to be used for font metrics"
-msgstr ""
+msgstr "Letra-tipoen metriketan erabiliko den atxikitzea"
 
 #: src/goocanvasitemsimple.c:228
 msgid "Stroke Color"
@@ -710,7 +710,7 @@ msgstr "Trazu-kolorea"
 msgid ""
 "The color to use for the item's perimeter. To disable painting set the "
 "'stroke-pattern' property to NULL"
-msgstr ""
+msgstr "Elementuen perimetroetan erabiliko den kolorea. Margotzea desgaitzeko, ezarri 'stroke-pattern' propietatean NULL balioa"
 
 #: src/goocanvasitemsimple.c:235
 msgid "Stroke Color RGBA"
@@ -720,7 +720,7 @@ msgstr "Trazu-kolorea RGBA"
 msgid ""
 "The color to use for the item's perimeter, specified as a 32-bit integer "
 "value. To disable painting set the 'stroke-pattern' property to NULL"
-msgstr ""
+msgstr "Elementuen perimetroetan erabiliko den kolorea, 32 bit-eko balio oso gisa adierazita. Margotzea desgaitzeko, ezarri 'stroke-pattern' propietatean NULL balioa"
 
 #: src/goocanvasitemsimple.c:249
 msgid "Stroke Color GdkRGBA"
@@ -730,57 +730,57 @@ msgstr "Trazu-kolorea GdkRGBA"
 msgid ""
 "The color to use for the item's perimeter, specified as a GdkRGBA. To "
 "disable painting set the 'stroke-pattern' property to NULL"
-msgstr ""
+msgstr "Elementuen perimetroetan erabiliko den kolorea, GdkRGBA gisa adierazita. Margotzea desgaitzeko, ezarri 'stroke-pattern' propietatean NULL balioa"
 
 #: src/goocanvasitemsimple.c:256
 msgid "Stroke Pixbuf"
-msgstr ""
+msgstr "Trazuaren pixbuf-a"
 
 #: src/goocanvasitemsimple.c:257
 msgid ""
 "The pixbuf to use to draw the item's perimeter. To disable painting set the "
 "'stroke-pattern' property to NULL"
-msgstr ""
+msgstr "Elementuen perimetroa marrazteko erabiliko den pixbuf-a. Margotzea desgaitzeko, ezarri 'stroke-pattern' propietatean NULL balioa"
 
 #: src/goocanvasitemsimple.c:263
 msgid "Fill Color"
-msgstr "Betegarri-kolorea"
+msgstr "Betetzea-kolorea"
 
 #: src/goocanvasitemsimple.c:264
 msgid ""
 "The color to use to paint the interior of the item. To disable painting set "
 "the 'fill-pattern' property to NULL"
-msgstr ""
+msgstr "Elementuaren barnealdea margotzeko erabiliko den kolorea. Margotzea desgaitzeko, ezarri 'fill-pattern' propietatean NULL balioa"
 
 #: src/goocanvasitemsimple.c:270
 msgid "Fill Color RGBA"
-msgstr "Betegarri-kolorea RGBA"
+msgstr "Betetze-kolorea RGBA"
 
 #: src/goocanvasitemsimple.c:271
 msgid ""
 "The color to use to paint the interior of the item, specified as a 32-bit "
 "integer value. To disable painting set the 'fill-pattern' property to NULL"
-msgstr ""
+msgstr "Elementuaren barnealdea margotzeko erabiliko den kolorea, 32 bit-eko balio oso gisa adierazita. Margotzea desgaitzeko, ezarri 'fill-pattern' propietatean NULL balioa"
 
 #: src/goocanvasitemsimple.c:284
 msgid "Fill Color GdkRGBA"
-msgstr "Betegarri-kolorea GdkRGBA"
+msgstr "Betetze-kolorea GdkRGBA"
 
 #: src/goocanvasitemsimple.c:285
 msgid ""
 "The color to use to paint the interior of the item, specified as a GdkRGBA. "
 "To disable painting set the 'fill-pattern' property to NULL"
-msgstr ""
+msgstr "Elementuaren barnealdea margotzeko erabiliko den kolorea, GdkRGBA balio oso gisa adierazita. Margotzea desgaitzeko, ezarri 'fill-pattern' propietatean NULL balioa"
 
 #: src/goocanvasitemsimple.c:291
 msgid "Fill Pixbuf"
-msgstr ""
+msgstr "Betetzearen pixbuf-a"
 
 #: src/goocanvasitemsimple.c:292
 msgid ""
 "The pixbuf to use to paint the interior of the item. To disable painting set "
 "the 'fill-pattern' property to NULL"
-msgstr ""
+msgstr "Elementuaren barnealdea margotzeko erabiliko den pixbuf-a. Margotzea desgaitzeko, ezarri 'fill-pattern' propietatean NULL balioa"
 
 #: src/goocanvasitemsimple.c:342
 msgid "Clip Path"
@@ -792,19 +792,19 @@ msgstr "Mozte-bidea zehazten duen bide-komandoen sekuentzia"
 
 #: src/goocanvasitemsimple.c:349
 msgid "Clip Fill Rule"
-msgstr ""
+msgstr "Mozteko betetze-araua"
 
 #: src/goocanvasitemsimple.c:350
 msgid "The fill rule used to determine which parts of the item are clipped"
-msgstr ""
+msgstr "Elementuaren zein zati moztuko diren zehazteko erabiliko den betetze-araua"
 
 #: src/goocanvaspath.c:70
 msgid "Path Data"
-msgstr ""
+msgstr "Bide-datuak"
 
 #: src/goocanvaspath.c:71
 msgid "The sequence of path commands"
-msgstr ""
+msgstr "Bide-komandoen sekuentzia"
 
 #: src/goocanvaspath.c:78
 msgid "The x coordinate of the path"
@@ -844,7 +844,7 @@ msgstr "Hasierako gezia"
 
 #: src/goocanvaspolyline.c:196
 msgid "If an arrow should be displayed at the start of the polyline"
-msgstr "Gezi bat erakutsi behar den ala ez polilerroaren hasieran"
+msgstr "Gezi bat erakutsi behar den ala ez polimarraren hasieran"
 
 #: src/goocanvaspolyline.c:202
 msgid "End Arrow"
@@ -852,7 +852,7 @@ msgstr "Amaierako gezia"
 
 #: src/goocanvaspolyline.c:203
 msgid "If an arrow should be displayed at the end of the polyline"
-msgstr "Gezi bat erakutsi behar den ala ez polilerroaren amaieran"
+msgstr "Gezi bat erakutsi behar den ala ez polimarraren amaieran"
 
 #: src/goocanvaspolyline.c:209
 msgid "Arrow Length"
@@ -860,7 +860,7 @@ msgstr "Geziaren luzera"
 
 #: src/goocanvaspolyline.c:210
 msgid "The length of the arrows, as a multiple of the line width"
-msgstr ""
+msgstr "Gezien luzera, marra-zabaleraren balio anizkoitz gisa"
 
 #: src/goocanvaspolyline.c:216
 msgid "Arrow Width"
@@ -868,31 +868,31 @@ msgstr "Geziaren zabalera"
 
 #: src/goocanvaspolyline.c:217
 msgid "The width of the arrows, as a multiple of the line width"
-msgstr ""
+msgstr "Gezien zabalera, marra-zabaleraren balio anizkoitz gisa"
 
 #: src/goocanvaspolyline.c:223
 msgid "Arrow Tip Length"
-msgstr ""
+msgstr "Gezi-puntaren luzera"
 
 #: src/goocanvaspolyline.c:224
 msgid "The length of the arrow tip, as a multiple of the line width"
-msgstr ""
+msgstr "Gezi-puntaren luzera, marra-zabaleraren balio anizkoitz gisa"
 
 #: src/goocanvaspolyline.c:231
 msgid "The x coordinate of the left-most point of the polyline"
-msgstr ""
+msgstr "Polimarraren ezkerreko puntuaren X koordenatua"
 
 #: src/goocanvaspolyline.c:239
 msgid "The y coordinate of the top-most point of the polyline"
-msgstr ""
+msgstr "Polimarraren goiko puntuaren Y koordenatua"
 
 #: src/goocanvaspolyline.c:247
 msgid "The width of the polyline"
-msgstr "Polilerroaren zabalera"
+msgstr "Polimarraren zabalera"
 
 #: src/goocanvaspolyline.c:254
 msgid "The height of the polyline"
-msgstr "Polilerroaren altuera"
+msgstr "Polimarraren altuera"
 
 #: src/goocanvasrect.c:61
 msgid "The x coordinate of the rectangle"
@@ -958,7 +958,7 @@ msgstr "X ertzaren tartea"
 msgid ""
 "The amount of spacing between the lefmost and rightmost cells and the border "
 "grid line"
-msgstr ""
+msgstr "Ezkerreneko eta eskuineneko gelaxken eta ertzeko sareta-marraren arteko tartea"
 
 #: src/goocanvastable.c:270
 msgid "Y Border Spacing"
@@ -968,7 +968,7 @@ msgstr "Y ertzaren tartea"
 msgid ""
 "The amount of spacing between the topmost and bottommost cells and the "
 "border grid line"
-msgstr ""
+msgstr "Goreneko eta behereneko gelaxken eta ertzeko sareta-marraren arteko tartea"
 
 #: src/goocanvastable.c:277
 msgid "The width of the grid line to draw between rows"
@@ -1018,7 +1018,7 @@ msgstr "X lerrokatzea"
 msgid ""
 "The horizontal position of the item within its allocated space. 0.0 is left-"
 "aligned, 1.0 is right-aligned"
-msgstr ""
+msgstr "Elementuaren kokaleku horizontala hari esleitutako espazioan. 0.0 balioa ezkerrean lerrokatua da, 1.0 balioa eskuinean lerrokatua da"
 
 #: src/goocanvastable.c:324
 msgid "Y Align"
@@ -1028,7 +1028,7 @@ msgstr "Y lerrokatzea"
 msgid ""
 "The vertical position of the item within its allocated space. 0.0 is top-"
 "aligned, 1.0 is bottom-aligned"
-msgstr ""
+msgstr "Elementuaren kokaleku bertikala hari esleitutako espazioan. 0.0 balioa goian lerrokatua da, 1.0 balioa behean lerrokatua da"
 
 #: src/goocanvastable.c:331
 msgid "Row"
@@ -1064,7 +1064,7 @@ msgstr "Elementuak betetzen duen zutabe kopurua"
 
 #: src/goocanvastable.c:356
 msgid "X Expand"
-msgstr "X hedapena"
+msgstr "X hedatzea"
 
 #: src/goocanvastable.c:357
 msgid "If the item expands horizontally as the table expands"
@@ -1072,7 +1072,7 @@ msgstr "Elementua horizontalean hedatuko den ala ez taula hedatzean"
 
 #: src/goocanvastable.c:362
 msgid "X Fill"
-msgstr "X betegarria"
+msgstr "X betetzea"
 
 #: src/goocanvastable.c:363
 msgid "If the item fills all horizontal allocated space"
@@ -1080,15 +1080,15 @@ msgstr "Elementuak horizontalean esleitutako espazio osoa beteko duen ala ez"
 
 #: src/goocanvastable.c:368
 msgid "X Shrink"
-msgstr ""
+msgstr "X txikiagotzea"
 
 #: src/goocanvastable.c:369
 msgid "If the item can shrink smaller than its requested size horizontally"
-msgstr ""
+msgstr "Elementua eskatutako tamaina baino txikiago egin daitekeen horizontalean "
 
 #: src/goocanvastable.c:374
 msgid "Y Expand"
-msgstr "Y hedapena"
+msgstr "Y hedatzea"
 
 #: src/goocanvastable.c:375
 msgid "If the item expands vertically as the table expands"
@@ -1096,7 +1096,7 @@ msgstr "Elementua bertikalean hedatuko den ala ez taula hedatzean"
 
 #: src/goocanvastable.c:380
 msgid "Y Fill"
-msgstr "Y betegarria"
+msgstr "Y betetzea"
 
 #: src/goocanvastable.c:381
 msgid "If the item fills all vertical allocated space"
@@ -1104,11 +1104,11 @@ msgstr "Elementuak bertikalean esleitutako espazio osoa beteko duen ala ez"
 
 #: src/goocanvastable.c:386
 msgid "Y Shrink"
-msgstr ""
+msgstr "Y txikiagotzea"
 
 #: src/goocanvastable.c:387
 msgid "If the item can shrink smaller than its requested size vertically"
-msgstr ""
+msgstr "Elementua eskatutako tamaina baino txikiago egin daitekeen bertikalean"
 
 #: src/goocanvastext.c:94
 msgid "Text"
@@ -1124,7 +1124,7 @@ msgstr "Erabili markaketa"
 
 #: src/goocanvastext.c:102
 msgid "Whether to parse PangoMarkup in the text, to support different styles"
-msgstr ""
+msgstr "PangoMarkup analisia egingo den ala ez testuan, estilo desberdinak onartzeko"
 
 #: src/goocanvastext.c:108
 msgid "Ellipsize"
@@ -1138,7 +1138,7 @@ msgstr "Katea elipsi gisa jartzeko lekua, etiketak ez badu nahikoa toki kate oso
 
 #: src/goocanvastext.c:116
 msgid "Wrap"
-msgstr "Itzulbiratu"
+msgstr "Egokitu"
 
 #: src/goocanvastext.c:117
 msgid "The preferred method of wrapping the string if a width has been set"
@@ -1156,17 +1156,17 @@ msgstr "Testuaren Y koordenatua"
 msgid ""
 "The width to use to layout the text, or -1 to let the text use as much "
 "horizontal space as needed"
-msgstr ""
+msgstr "Testua antolatzeko erabiliko den zabalera, edo -1 testuak behar duen tarte horizontal guztia erabili dezan"
 
 #: src/goocanvastext.c:150
 msgid ""
 "The height to use to layout the text, or -1 to let the text use as much "
 "vertical space as needed"
-msgstr ""
+msgstr "Testua antolatzeko erabiliko den altuera, edo -1 testuak behar duen tarte bertikal guztia erabili dezan"
 
 #: src/goocanvastext.c:159
 msgid "How to position the text relative to the given x and y coordinates"
-msgstr ""
+msgstr "Nola kokatu testua emandako X eta Y koordenatuekiko posizio erlatiboan"
 
 #: src/goocanvastext.c:166
 msgid "Alignment"
@@ -1203,4 +1203,4 @@ msgstr "Trepetaren altuera, edo -1 eskatutako altuera erabilia izan dadin"
 #: src/goocanvaswidget.c:588
 msgid ""
 "How to position the widget relative to the item's x and y coordinate settings"
-msgstr ""
+msgstr "Nola kokatu trepeta elementuaren X eta Y koordenatuekiko posizio erlatiboan"
