@@ -46,8 +46,8 @@ main (int argc, char *argv[])
   /* Add a few simple items. */
   rect_model = goo_canvas_rect_model_new (root, 100, 100, 400, 400,
 					  "line-width", 10.0,
-					  "radius-x", 20.0,
-					  "radius-y", 10.0,
+					  "radius-top-left-x", 30.0,
+					  "radius-top-left-y", 20.0,
 					  "stroke-color", "yellow",
 					  "fill-color", "red",
 					  NULL);

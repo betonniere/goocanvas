@@ -44,9 +44,11 @@ main (int argc, char *argv[])
 
   /* Add a few simple items. */
   rect_item = goo_canvas_rect_new (root, 100, 100, 400, 400,
-				   "line-width", 10.0,
-				   "radius-x", 20.0,
-				   "radius-y", 10.0,
+				   "line-width", 1.0,
+				   "radius-bottom-left-x", 60.0,
+				   "radius-bottom-left-y", 60.0,
+				   "radius-bottom-right-x", 60.0,
+				   "radius-bottom-right-y", 60.0,
 				   "stroke-color", "yellow",
 				   "fill-color", "red",
 				   NULL);
