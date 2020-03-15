@@ -8,6 +8,6 @@ AUTOMAKE_OPTIONS = 1.7
 DISTCHECK_CONFIGURE_FLAGS = --enable-introspection
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = goocanvas-3.0.pc
+pkgconfig_DATA = goocanvas-4.0.pc
 
-EXTRA_DIST = goocanvas-3.0.pc.in autogen.sh
+EXTRA_DIST = goocanvas-4.0.pc.in autogen.sh

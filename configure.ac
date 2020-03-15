@@ -1,6 +1,6 @@
 dnl Process this file with autoconf to produce a configure script.
 
-AC_INIT(goocanvas, 2.99.1)
+AC_INIT(goocanvas, 4.00.0)
 AC_PREREQ(2.50)
 AC_CONFIG_SRCDIR(src/goocanvas.c)
 AC_CONFIG_HEADERS(config.h)
@@ -12,8 +12,8 @@ AM_INIT_AUTOMAKE
 # If interfaces changed but it is backwards compatible: AGE++, else AGE=0.
 #  i.e. the library supports interfaces CURRENT - AGE up to CURRENT.
 #  if two libraries have identical CURRENT and AGE, then newest REVISION used.
-CURRENT=12
-AGE=3
+CURRENT=14
+AGE=0
 REVISION=0
 
 LT_VERSION_INFO="$CURRENT:$REVISION:$AGE"
@@ -39,7 +39,7 @@ AC_SUBST(PACKAGE_LIBS)
 AM_GNU_GETTEXT([external])
 AM_GNU_GETTEXT_VERSION([0.20])
 
-GETTEXT_PACKAGE=goocanvas3
+GETTEXT_PACKAGE=goocanvas4
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
 
@@ -117,6 +117,6 @@ docs/Makefile
 bindings/Makefile
 bindings/python/Makefile
 po/Makefile.in
-goocanvas-3.0.pc
+goocanvas-4.0.pc
 ])
 

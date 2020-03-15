@@ -10,9 +10,9 @@ INCLUDES = \
 #	-DGDK_DISABLE_DEPRECATED -DGDK_PIXBUF_DISABLE_DEPRECATED \
 #	-DGTK_DISABLE_DEPRECATED
 
-lib_LTLIBRARIES = libgoocanvas-3.0.la
+lib_LTLIBRARIES = libgoocanvas-4.0.la
 
-libgoocanvas_3_0_la_LIBADD = @PACKAGE_LIBS@ $(INTLLIBS) -lm
+libgoocanvas_4_0_la_LIBADD = @PACKAGE_LIBS@ $(INTLLIBS) -lm
 
 if PLATFORM_WIN32
 no_undefined = -no-undefined
@@ -23,9 +23,9 @@ libtool_opts =				\
   -export-dynamic $(no_undefined)	\
   -rpath $(libdir)
 
-libgoocanvas_3_0_la_LDFLAGS = $(libtool_opts) 
+libgoocanvas_4_0_la_LDFLAGS = $(libtool_opts) 
 
-libgoocanvasincludedir = $(includedir)/goocanvas-3.0
+libgoocanvasincludedir = $(includedir)/goocanvas-4.0
 
 libgoocanvas_public_headers =		\
 	goocanvasellipse.h		\
@@ -45,7 +45,7 @@ libgoocanvas_public_headers =		\
 	goocanvaswidget.h		\
 	goocanvas.h
 
-libgoocanvas_3_0_la_SOURCES =		\
+libgoocanvas_4_0_la_SOURCES =		\
 	goocanvasatk.h			\
 	goocanvasatk.c			\
 	goocanvasellipse.c		\
@@ -159,15 +159,15 @@ INTROSPECTION_SCANNER_ARGS = --add-include-path=$(srcdir)
 INTROSPECTION_COMPILER_ARGS = --includedir=$(srcdir)
 
 if HAVE_INTROSPECTION
-introspection_sources = $(libgoocanvas_3_0_la_SOURCES) $(libgoocanvasinclude_HEADERS)
+introspection_sources = $(libgoocanvas_4_0_la_SOURCES) $(libgoocanvasinclude_HEADERS)
 
-GooCanvas-3.0.gir: libgoocanvas-3.0.la
-GooCanvas_3_0_gir_SCANNERFLAGS = --identifier-prefix=Goo --symbol-prefix=goo --warn-all
-GooCanvas_3_0_gir_INCLUDES = Gtk-3.0
-GooCanvas_3_0_gir_CFLAGS = $(INCLUDES) -I$(top_srcdir)/src
-GooCanvas_3_0_gir_LIBS = goocanvas-3.0
-GooCanvas_3_0_gir_FILES = $(introspection_sources)
-INTROSPECTION_GIRS += GooCanvas-3.0.gir
+GooCanvas-4.0.gir: libgoocanvas-4.0.la
+GooCanvas_4_0_gir_SCANNERFLAGS = --identifier-prefix=Goo --symbol-prefix=goo --warn-all
+GooCanvas_4_0_gir_INCLUDES = Gtk-3.0
+GooCanvas_4_0_gir_CFLAGS = $(INCLUDES) -I$(top_srcdir)/src
+GooCanvas_4_0_gir_LIBS = goocanvas-4.0
+GooCanvas_4_0_gir_FILES = $(introspection_sources)
+INTROSPECTION_GIRS += GooCanvas-4.0.gir
 
 girdir = @INTROSPECTION_GIRDIR@
 gir_DATA = $(INTROSPECTION_GIRS)
