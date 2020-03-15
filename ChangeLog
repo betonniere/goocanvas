@@ -1,3 +1,7 @@
+2020-03-15  Alberto Fanjul  <albfan@gnome.org>
+
+	* Change the ABI from goocanvas-2.0 to goocanvas-3.0: Use goocanvas-3.0 to continue developing on gtk 3
+
 2017-11-23  Damon Chaplin  <damon@gnome.org>
 
 	* src/goocanvasitemmodel.c (goo_canvas_item_model_class_list_child_properties):
