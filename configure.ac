@@ -1,6 +1,6 @@
 dnl Process this file with autoconf to produce a configure script.
 
-AC_INIT(goocanvas, 2.0.4)
+AC_INIT(goocanvas, 3.00.0)
 AC_PREREQ(2.50)
 AC_CONFIG_SRCDIR(src/goocanvas.c)
 AC_CONFIG_HEADERS(config.h)
@@ -39,7 +39,7 @@ AC_SUBST(PACKAGE_LIBS)
 AM_GNU_GETTEXT([external])
 AM_GNU_GETTEXT_VERSION([0.19.4])
 
-GETTEXT_PACKAGE=goocanvas2
+GETTEXT_PACKAGE=goocanvas3
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package.])
 
@@ -117,6 +117,6 @@ docs/Makefile
 bindings/Makefile
 bindings/python/Makefile
 po/Makefile.in
-goocanvas-2.0.pc
+goocanvas-3.0.pc
 ])
 
