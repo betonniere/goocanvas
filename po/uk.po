@@ -1,0 +1,1278 @@
+# Ukrainian translation for goocanvas.
+# Copyright (C) 2020 goocanvas's COPYRIGHT HOLDER
+# This file is distributed under the same license as the goocanvas package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: goocanvas goocanvas-2.0\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/goocanvas/issues\n"
+"POT-Creation-Date: 2020-03-15 20:06+0000\n"
+"PO-Revision-Date: 2020-04-07 15:24+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.07.70\n"
+
+#: src/goocanvas.c:310
+msgid "Scale"
+msgstr "Масштаб"
+
+#: src/goocanvas.c:311
+msgid "The magnification factor of the canvas"
+msgstr "Коефіцієнт масштабування полотна"
+
+#: src/goocanvas.c:317
+msgid "Scale X"
+msgstr "Масштаб за X"
+
+#: src/goocanvas.c:318
+msgid "The horizontal magnification factor of the canvas"
+msgstr "Коефіцієнт горизонтального масштабування полотна"
+
+#: src/goocanvas.c:324
+msgid "Scale Y"
+msgstr "Масштаб за Y"
+
+#: src/goocanvas.c:325
+msgid "The vertical magnification factor of the canvas"
+msgstr "Коефіцієнт вертикального масштабування полотна"
+
+#: src/goocanvas.c:331 src/goocanvastext.c:158 src/goocanvaswidget.c:587
+msgid "Anchor"
+msgstr "Прив'язка"
+
+#: src/goocanvas.c:332
+msgid ""
+"Where to place the canvas when it is smaller than the widget's allocated area"
+msgstr ""
+"Де розташовувати полотно, якщо воно менше за виділену для віджета ділянку"
+
+#: src/goocanvas.c:339
+msgid "X1"
+msgstr "X1"
+
+#: src/goocanvas.c:340
+msgid "The x coordinate of the left edge of the canvas bounds, in canvas units"
+msgstr "Координата за x лівого краю межі полотна у одиницях полотна"
+
+#: src/goocanvas.c:347
+msgid "Y1"
+msgstr "Y1"
+
+#: src/goocanvas.c:348
+msgid "The y coordinate of the top edge of the canvas bounds, in canvas units"
+msgstr "Координата за y верхнього краю межі полотна у одиницях полотна"
+
+#: src/goocanvas.c:355
+msgid "X2"
+msgstr "X2"
+
+#: src/goocanvas.c:356
+msgid ""
+"The x coordinate of the right edge of the canvas bounds, in canvas units"
+msgstr "Координата за x правого краю межі полотна у одиницях полотна"
+
+#: src/goocanvas.c:364
+msgid "Y2"
+msgstr "Y2"
+
+#: src/goocanvas.c:365
+msgid ""
+"The y coordinate of the bottom edge of the canvas bounds, in canvas units"
+msgstr "Координата за y нижнього краю межі полотна у одиницях полотна"
+
+#: src/goocanvas.c:374
+msgid "Automatic Bounds"
+msgstr "Автоматичні межі"
+
+#: src/goocanvas.c:375
+msgid ""
+"If the bounds are automatically calculated based on the bounds of all the "
+"items in the canvas"
+msgstr ""
+"Чи слід обчислювати межі автоматично на основі меж усіх об'єктів на полотні"
+
+#: src/goocanvas.c:381
+msgid "Bounds From Origin"
+msgstr "Межі від початку"
+
+#: src/goocanvas.c:382
+msgid "If the automatic bounds are calculated from the origin"
+msgstr ""
+"Чи слід обчислювати межі автоматично на основі розташування початку координат"
+
+#: src/goocanvas.c:388
+msgid "Bounds Padding"
+msgstr "Фаска меж"
+
+#: src/goocanvas.c:389
+msgid "The padding added to the automatic bounds"
+msgstr "Фаска, яку слід додати до автоматично визначених меж"
+
+#: src/goocanvas.c:395
+msgid "Units"
+msgstr "Одиниці"
+
+#: src/goocanvas.c:396
+msgid "The units to use for the canvas"
+msgstr "Одиниці, які слід використовувати для вимірювань на полотні"
+
+#: src/goocanvas.c:403
+msgid "Resolution X"
+msgstr "Роздільність за X"
+
+#: src/goocanvas.c:404
+msgid "The horizontal resolution of the display, in dots per inch"
+msgstr "Роздільність дисплея за горизонталлю у точках на дюйм"
+
+#: src/goocanvas.c:411
+msgid "Resolution Y"
+msgstr "Роздільність за Y"
+
+#: src/goocanvas.c:412
+msgid "The vertical resolution of the display, in dots per inch"
+msgstr "Роздільність дисплея за вертикаллю у точках на дюйм"
+
+#: src/goocanvas.c:420
+msgid "Background Color"
+msgstr "Колір тла"
+
+#: src/goocanvas.c:421
+msgid "The color to use for the canvas background"
+msgstr "Колір для тла полотна"
+
+#: src/goocanvas.c:427
+msgid "Background Color RGB"
+msgstr "Колір тла у RGB"
+
+#: src/goocanvas.c:428
+msgid ""
+"The color to use for the canvas background, specified as a 24-bit integer "
+"value, 0xRRGGBB"
+msgstr "Колір тла полотна у форматі 24-бітового цілого значення, 0xRRGGBB"
+
+#: src/goocanvas.c:441
+msgid "Background Color GdkRGBA"
+msgstr "Колір тла у GdkRGBA"
+
+#: src/goocanvas.c:442
+msgid "The color to use for the canvas background, specified as a GdkRGBA"
+msgstr "Колір тла полотна у форматі GdkRGBA"
+
+#: src/goocanvas.c:448
+msgid "Integer Layout"
+msgstr "Цілочисельне компонування"
+
+#: src/goocanvas.c:449
+msgid "If all item layout is done to the nearest integer"
+msgstr "Чи слід округлювати координати усіх об'єктів до найближчих цілих чисел"
+
+#: src/goocanvas.c:455
+msgid "Clear Background"
+msgstr "Очищення тла"
+
+#: src/goocanvas.c:456
+msgid "If the background is cleared before the canvas is painted"
+msgstr "Чи слід очищувати тло до того, як буде намальовано полотно"
+
+#: src/goocanvas.c:462
+msgid "Redraw When Scrolled"
+msgstr "Перемальовування при гортанні"
+
+#: src/goocanvas.c:463
+msgid ""
+"If the canvas is completely redrawn when scrolled, to reduce the flicker of "
+"static items. Note that since GTK+ 3.0 the canvas is always redrawn when "
+"scrolled, so this option has no effect."
+msgstr ""
+"Чи слід повністю перемальовувати полотно при гортанні для зменшення ефекту"
+" блимання статичних об'єктів. Зауважте, що, починаючи з версії GTK+ 3.0,"
+" полотно перемальовуватиметься при гортанні завжди, тому цей параметр ні на"
+" що не вплине."
+
+#: src/goocanvasellipse.c:77
+msgid "Center X"
+msgstr "Центр за X"
+
+#: src/goocanvasellipse.c:78
+msgid "The x coordinate of the center of the ellipse"
+msgstr "Координата центра еліпса за x"
+
+#: src/goocanvasellipse.c:85
+msgid "Center Y"
+msgstr "Центр за Y"
+
+#: src/goocanvasellipse.c:86
+msgid "The y coordinate of the center of the ellipse"
+msgstr "Координата центра еліпса за y"
+
+#: src/goocanvasellipse.c:93 src/goocanvasrect.c:90
+msgid "Radius X"
+msgstr "Радіус за X"
+
+#: src/goocanvasellipse.c:94
+msgid "The horizontal radius of the ellipse"
+msgstr "Напіввісь еліпса за горизонталлю"
+
+#: src/goocanvasellipse.c:100 src/goocanvasrect.c:97
+msgid "Radius Y"
+msgstr "Радіус за Y"
+
+#: src/goocanvasellipse.c:101
+msgid "The vertical radius of the ellipse"
+msgstr "Напіввісь еліпса за вертикаллю"
+
+#: src/goocanvasellipse.c:108
+msgid "The x coordinate of the left side of the ellipse"
+msgstr "Координата за x лівого краю еліпса"
+
+#: src/goocanvasellipse.c:116
+msgid "The y coordinate of the top of the ellipse"
+msgstr "Координата за y верхнього краю еліпса"
+
+#: src/goocanvasellipse.c:123 src/goocanvasgrid.c:127 src/goocanvasgroup.c:106
+#: src/goocanvasimage.c:115 src/goocanvaspath.c:93 src/goocanvaspolyline.c:246
+#: src/goocanvasrect.c:76 src/goocanvastext.c:141 src/goocanvaswidget.c:570
+msgid "Width"
+msgstr "Ширина"
+
+#: src/goocanvasellipse.c:124
+msgid "The width of the ellipse"
+msgstr "Ширина еліпса"
+
+#: src/goocanvasellipse.c:130 src/goocanvasgrid.c:134 src/goocanvasgroup.c:114
+#: src/goocanvasimage.c:122 src/goocanvaspath.c:100 src/goocanvaspolyline.c:253
+#: src/goocanvasrect.c:83 src/goocanvastext.c:149 src/goocanvaswidget.c:578
+msgid "Height"
+msgstr "Висота"
+
+#: src/goocanvasellipse.c:131
+msgid "The height of the ellipse"
+msgstr "Висота еліпса"
+
+#: src/goocanvasgrid.c:112
+msgid "The x coordinate of the grid"
+msgstr "Координата ґратки за x"
+
+#: src/goocanvasgrid.c:120
+msgid "The y coordinate of the grid"
+msgstr "Координата ґратки за y"
+
+#: src/goocanvasgrid.c:128
+msgid "The width of the grid"
+msgstr "Ширина ґратки"
+
+#: src/goocanvasgrid.c:135
+msgid "The height of the grid"
+msgstr "Висота ґратки"
+
+#: src/goocanvasgrid.c:142
+msgid "The distance between the vertical grid lines"
+msgstr "Відстань між вертикальними лініями ґратки"
+
+#: src/goocanvasgrid.c:149
+msgid "The distance between the horizontal grid lines"
+msgstr "Відстань між горизонтальними лініями ґратки"
+
+#: src/goocanvasgrid.c:156
+msgid "The distance before the first vertical grid line"
+msgstr "Відстань до першої вертикальної лінії ґратки"
+
+#: src/goocanvasgrid.c:163
+msgid "The distance before the first horizontal grid line"
+msgstr "Відстань до першої горизонтальної лінії ґратки"
+
+#: src/goocanvasgrid.c:169 src/goocanvastable.c:276
+msgid "Horizontal Grid Line Width"
+msgstr "Товщина горизонтальної лінії ґратки"
+
+#: src/goocanvasgrid.c:170
+msgid "The width of the horizontal grid lines"
+msgstr "Товщина горизонтальних ліній ґратки"
+
+#: src/goocanvasgrid.c:177 src/goocanvastable.c:283
+msgid "Vertical Grid Line Width"
+msgstr "Товщина вертикальної лінії ґратки"
+
+#: src/goocanvasgrid.c:178
+msgid "The width of the vertical grid lines"
+msgstr "Товщина вертикальних ліній ґратки"
+
+#: src/goocanvasgrid.c:185
+msgid "Horizontal Grid Line Pattern"
+msgstr "Візерунок горизонтальних ліній ґратки"
+
+#: src/goocanvasgrid.c:186
+msgid "The cairo pattern to paint the horizontal grid lines with"
+msgstr "Візерунок cairo, який слід намалювати горизонтальними лініями ґратки"
+
+#: src/goocanvasgrid.c:192
+msgid "Vertical Grid Line Pattern"
+msgstr "Візерунок вертикальних ліній ґратки"
+
+#: src/goocanvasgrid.c:193
+msgid "The cairo pattern to paint the vertical grid lines with"
+msgstr "Візерунок cairo, який слід намалювати вертикальними лініями ґратки"
+
+#: src/goocanvasgrid.c:199
+msgid "Border Width"
+msgstr "Товщина рамки"
+
+#: src/goocanvasgrid.c:200
+msgid "The width of the border around the grid"
+msgstr "Товщина рамки навколо ґратки"
+
+#: src/goocanvasgrid.c:207
+msgid "Border Pattern"
+msgstr "Візерунок рамки"
+
+#: src/goocanvasgrid.c:208
+msgid "The cairo pattern to paint the border with"
+msgstr "Візерунок cairo, який слід намалювати на рамці"
+
+#: src/goocanvasgrid.c:214
+msgid "Show Horizontal Grid Lines"
+msgstr "Показувати горизонтальні лінії сітки"
+
+#: src/goocanvasgrid.c:215
+msgid "If the horizontal grid lines are shown"
+msgstr "Чи показано горизонтальні лінії ґратки"
+
+#: src/goocanvasgrid.c:221
+msgid "Show Vertical Grid Lines"
+msgstr "Показувати вертикальні лінії сітки"
+
+#: src/goocanvasgrid.c:222
+msgid "If the vertical grid lines are shown"
+msgstr "Чи показано вертикальні лінії ґратки"
+
+#: src/goocanvasgrid.c:228
+msgid "Vertical Grid Lines On Top"
+msgstr "Вертикальні лінії ґратки згори"
+
+#: src/goocanvasgrid.c:229
+msgid "If the vertical grid lines are painted above the horizontal grid lines"
+msgstr ""
+"Чи слід малювати вертикальні лінії ґратки над горизонтальними лініями ґратки"
+
+#: src/goocanvasgrid.c:237
+msgid "Horizontal Grid Line Color"
+msgstr "Колір горизонтальних ліній ґратки"
+
+#: src/goocanvasgrid.c:238
+msgid "The color to use for the horizontal grid lines"
+msgstr ""
+"Колір, яким слід скористатися для малювання горизонтальних ліній ґратки"
+
+#: src/goocanvasgrid.c:244
+msgid "Horizontal Grid Line Color RGBA"
+msgstr "Колір RGBA горизонтальних ліній ґратки"
+
+#: src/goocanvasgrid.c:245
+msgid ""
+"The color to use for the horizontal grid lines, specified as a 32-bit "
+"integer value"
+msgstr ""
+"Колір, яким слід скористатися для малювання горизонтальних ліній ґратки,"
+" вказаний у форматі 32-бітового цілого значення"
+
+#: src/goocanvasgrid.c:258
+msgid "Horizontal Grid Line Color GdkRGBA"
+msgstr "Колір GdkRGBA горизонтальних ліній ґратки"
+
+#: src/goocanvasgrid.c:259
+msgid "The color to use for the horizontal grid lines, specified as a GdkRGBA"
+msgstr ""
+"Колір, яким слід скористатися для малювання горизонтальних ліній ґратки,"
+" вказаний у форматі GdkRGBA"
+
+#: src/goocanvasgrid.c:265
+msgid "Horizontal Grid Line Pixbuf"
+msgstr "Буфер зображення горизонтальних ліній ґратки"
+
+#: src/goocanvasgrid.c:266
+msgid "The pixbuf to use to draw the horizontal grid lines"
+msgstr ""
+"Буфер зображення, яким слід скористатися для малювання горизонтальних ліній"
+" ґратки"
+
+#: src/goocanvasgrid.c:272
+msgid "Vertical Grid Line Color"
+msgstr "Колір вертикальних ліній ґратки"
+
+#: src/goocanvasgrid.c:273
+msgid "The color to use for the vertical grid lines"
+msgstr "Колір, яким слід скористатися для малювання вертикальних ліній ґратки"
+
+#: src/goocanvasgrid.c:279
+msgid "Vertical Grid Line Color RGBA"
+msgstr "Колір RGBA вертикальних ліній ґратки"
+
+#: src/goocanvasgrid.c:280
+msgid ""
+"The color to use for the vertical grid lines, specified as a 32-bit integer "
+"value"
+msgstr ""
+"Колір, яким слід скористатися для малювання вертикальних ліній ґратки,"
+" вказаний у форматі 32-бітового цілого значення"
+
+#: src/goocanvasgrid.c:293
+msgid "Vertical Grid Line Color GdkRGBA"
+msgstr "Колір GdkRGBA вертикальних ліній ґратки"
+
+#: src/goocanvasgrid.c:294
+msgid "The color to use for the vertical grid lines, specified as a GdkRGBA"
+msgstr ""
+"Колір, яким слід скористатися для малювання вертикальних ліній ґратки,"
+" вказаний у форматі GdkRGBA"
+
+#: src/goocanvasgrid.c:300
+msgid "Vertical Grid Line Pixbuf"
+msgstr "Буфер зображення вертикальних ліній ґратки"
+
+#: src/goocanvasgrid.c:301
+msgid "The pixbuf to use to draw the vertical grid lines"
+msgstr ""
+"Буфер зображення, яким слід скористатися для малювання вертикальних ліній"
+" ґратки"
+
+#: src/goocanvasgrid.c:307
+msgid "Border Color"
+msgstr "Колір рамки"
+
+#: src/goocanvasgrid.c:308
+msgid "The color to use for the border"
+msgstr "Колір, яким слід скористатися для рамки"
+
+#: src/goocanvasgrid.c:314
+msgid "Border Color RGBA"
+msgstr "Колір RGBA рамки"
+
+#: src/goocanvasgrid.c:315
+msgid "The color to use for the border, specified as a 32-bit integer value"
+msgstr ""
+"Колір, яким слід скористатися для малювання рамки, вказаний у форматі"
+" 32-бітового цілого значення"
+
+#: src/goocanvasgrid.c:328
+msgid "Border Color GdkRGBA"
+msgstr "Колір GdkRGBA рамки"
+
+#: src/goocanvasgrid.c:329
+msgid "The color to use for the border, specified as a GdkRGBA"
+msgstr "Колір рамки у форматі GdkRGBA"
+
+#: src/goocanvasgrid.c:335
+msgid "Border Pixbuf"
+msgstr "Буфер зображення рамки"
+
+#: src/goocanvasgrid.c:336
+msgid "The pixbuf to use to draw the border"
+msgstr "Буфер зображення, яким слід скористатися для малювання рамки"
+
+#: src/goocanvasgroup.c:91
+msgid "The x coordinate of the group"
+msgstr "Координата групи за x"
+
+#: src/goocanvasgroup.c:99
+msgid "The y coordinate of the group"
+msgstr "Координата групи за y"
+
+#: src/goocanvasgroup.c:107
+msgid "The width of the group, or -1 to use the default width"
+msgstr "Ширина групи або -1 для використання типової ширини"
+
+#: src/goocanvasgroup.c:115
+msgid "The height of the group, or -1 to use the default height"
+msgstr "Висота групи або -1 для використання типової висоти"
+
+#: src/goocanvasimage.c:92
+msgid "Pattern"
+msgstr "Візерунок"
+
+#: src/goocanvasimage.c:93
+msgid "The cairo pattern to paint"
+msgstr "Візерунок cairo, який слід намалювати"
+
+#: src/goocanvasimage.c:100
+msgid "The x coordinate of the image"
+msgstr "Координата x зображення"
+
+#: src/goocanvasimage.c:108
+msgid "The y coordinate of the image"
+msgstr "Координата y зображення"
+
+#: src/goocanvasimage.c:116
+msgid "The width of the image"
+msgstr "Ширина зображення"
+
+#: src/goocanvasimage.c:123
+msgid "The height of the image"
+msgstr "Висота зображення"
+
+#: src/goocanvasimage.c:129
+msgid "Scale To Fit"
+msgstr "Умістити на сторінці"
+
+#: src/goocanvasimage.c:130
+msgid "If the image is scaled to fit the width and height settings"
+msgstr ""
+"Чи слід масштабувати зображення так, щоб воно умістилося за шириною і висотою"
+
+#: src/goocanvasimage.c:136
+msgid "Alpha"
+msgstr "Альфа"
+
+#: src/goocanvasimage.c:137
+msgid "The opacity of the image, 0.0 is fully transparent, and 1.0 is opaque."
+msgstr ""
+"Непрозорість зображення, 0.0 — повністю прозоре, 1.0 — повністю непрозоре."
+
+#: src/goocanvasimage.c:143
+msgid "Pixbuf"
+msgstr "Буфер зображення"
+
+#: src/goocanvasimage.c:144
+msgid "The GdkPixbuf to display"
+msgstr "GdkPixbuf для показу"
+
+#: src/goocanvasitem.c:467 src/goocanvasitemmodel.c:224
+msgid "Parent"
+msgstr "Батьківський"
+
+#: src/goocanvasitem.c:468
+msgid "The parent item"
+msgstr "Батьківський об'єкт"
+
+#: src/goocanvasitem.c:474 src/goocanvasitemmodel.c:231
+msgid "Visibility"
+msgstr "Видимість"
+
+#: src/goocanvasitem.c:475 src/goocanvasitemmodel.c:232
+msgid "When the canvas item is visible"
+msgstr "Коли об'єкт полотна є видимим"
+
+#: src/goocanvasitem.c:482 src/goocanvasitemmodel.c:239
+msgid "Visibility Threshold"
+msgstr "Поріг видимості"
+
+#: src/goocanvasitem.c:483 src/goocanvasitemmodel.c:240
+msgid "The scale threshold at which the item becomes visible"
+msgstr "Пороговий масштаб, за якого об'єкт стає видимим"
+
+#: src/goocanvasitem.c:491 src/goocanvasitemmodel.c:248
+msgid "Transform"
+msgstr "Перетворення"
+
+#: src/goocanvasitem.c:492 src/goocanvasitemmodel.c:249
+msgid "The transformation matrix of the item"
+msgstr "Матриця перетворення об'єкта"
+
+#: src/goocanvasitem.c:498 src/goocanvasitemmodel.c:255
+msgid "Pointer Events"
+msgstr "Події щодо вказівника"
+
+#: src/goocanvasitem.c:499 src/goocanvasitemmodel.c:256
+msgid "Specifies when the item receives pointer events"
+msgstr "Вказує, коли об'єкт отримує події щодо вказівника"
+
+#: src/goocanvasitem.c:506 src/goocanvasitemmodel.c:263
+msgid "Title"
+msgstr "Заголовок"
+
+#: src/goocanvasitem.c:507 src/goocanvasitemmodel.c:264
+msgid ""
+"A short context-rich description of the item for use by assistive "
+"technologies"
+msgstr ""
+"Короткий контекстний опис об'єкта, який буде використано у засобах допоміжних"
+" технологій"
+
+#: src/goocanvasitem.c:513 src/goocanvasitemmodel.c:270
+msgid "Description"
+msgstr "Опис"
+
+#: src/goocanvasitem.c:514 src/goocanvasitemmodel.c:271
+msgid "A description of the item for use by assistive technologies"
+msgstr "Опис об'єкта для використання у засобах допоміжних технологій"
+
+#: src/goocanvasitem.c:520 src/goocanvasitemmodel.c:277
+msgid "Can Focus"
+msgstr "Може мати фокус"
+
+#: src/goocanvasitem.c:521 src/goocanvasitemmodel.c:278
+msgid "If the item can take the keyboard focus"
+msgstr "Чи може об'єкт отримувати фокус клавіатури"
+
+#: src/goocanvasitem.c:536 src/goocanvasitemmodel.c:284
+msgid "Tooltip"
+msgstr "Підказка"
+
+#: src/goocanvasitem.c:537 src/goocanvasitemmodel.c:285
+msgid "The tooltip to display for the item"
+msgstr "Підказка, яку буде показано для об'єкта"
+
+#: src/goocanvasitemmodel.c:225
+msgid "The parent item model"
+msgstr "Модель батьківського об'єкта"
+
+#: src/goocanvasitemsimple.c:128
+msgid "Stroke Pattern"
+msgstr "Штриховий візерунок"
+
+#: src/goocanvasitemsimple.c:129
+msgid ""
+"The pattern to use to paint the perimeter of the item, or NULL disable "
+"painting"
+msgstr ""
+"Візерунок, яким слід скористатися для малювання периметра об'єкта, або NULL,"
+" якщо периметр не слід малювати"
+
+#: src/goocanvasitemsimple.c:135
+msgid "Fill Pattern"
+msgstr "Візерунок заповнення"
+
+#: src/goocanvasitemsimple.c:136
+msgid ""
+"The pattern to use to paint the interior of the item, or NULL to disable "
+"painting"
+msgstr ""
+"Візерунок, яким слід скористатися для малювання середини об'єкта, або NULL,"
+" якщо середину не слід малювати"
+
+#: src/goocanvasitemsimple.c:142
+msgid "Fill Rule"
+msgstr "Правило заповнення"
+
+#: src/goocanvasitemsimple.c:143
+msgid "The fill rule used to determine which parts of the item are filled"
+msgstr ""
+"Правило заповнення, яким слід скористатися для визначення того, які частини"
+" об'єкта слід заповнювати"
+
+#: src/goocanvasitemsimple.c:150
+msgid "Operator"
+msgstr "Оператор"
+
+#: src/goocanvasitemsimple.c:151
+msgid "The compositing operator to use"
+msgstr "Оператор поєднання, яким слід скористатися"
+
+#: src/goocanvasitemsimple.c:158
+msgid "Antialias"
+msgstr "Згладжування"
+
+#: src/goocanvasitemsimple.c:159
+msgid "The antialiasing mode to use"
+msgstr "Режим згладжування, яким слід скористатися"
+
+#: src/goocanvasitemsimple.c:167
+msgid "Line Width"
+msgstr "Товщина лінії"
+
+#: src/goocanvasitemsimple.c:168
+msgid "The line width to use for the item's perimeter"
+msgstr "Товщина лінії, якою слід малювати периметр об'єкта"
+
+#: src/goocanvasitemsimple.c:174
+msgid "Line Cap"
+msgstr "Кінчик лінії"
+
+#: src/goocanvasitemsimple.c:175
+msgid "The line cap style to use"
+msgstr "Стиль кінчика лінії, яким слід скористатися"
+
+#: src/goocanvasitemsimple.c:182
+msgid "Line Join"
+msgstr "З’єднання ліній"
+
+#: src/goocanvasitemsimple.c:183
+msgid "The line join style to use"
+msgstr "Стиль з'єднання ліній, яким слід скористатися"
+
+#: src/goocanvasitemsimple.c:190
+msgid "Miter Limit"
+msgstr "Обмеження фацета"
+
+#: src/goocanvasitemsimple.c:191
+msgid ""
+"The smallest angle to use with miter joins, in degrees. Bevel joins will be "
+"used below this limit"
+msgstr ""
+"Найменший кут для плавних з'єднань, у градусах. Якщо кут буде більшим, буде"
+" використано кутове з'єднання"
+
+#: src/goocanvasitemsimple.c:197
+msgid "Line Dash"
+msgstr "Штрих лінії"
+
+#: src/goocanvasitemsimple.c:198
+msgid "The dash pattern to use"
+msgstr "Візерунок штриха, яким слід скористатися"
+
+#: src/goocanvasitemsimple.c:205
+msgid "Font"
+msgstr "Шрифт"
+
+#: src/goocanvasitemsimple.c:206
+msgid "The base font to use for the text"
+msgstr "Базовий шрифт, яким слід скористатися для тексту"
+
+#: src/goocanvasitemsimple.c:212
+msgid "Font Description"
+msgstr "Опис шрифту"
+
+#: src/goocanvasitemsimple.c:213
+msgid "The attributes specifying which font to use"
+msgstr "Атрибути, які вказують на те, яким шрифтом слід скористатися"
+
+#: src/goocanvasitemsimple.c:219
+msgid "Hint Metrics"
+msgstr "Метрика гінтінґу"
+
+#: src/goocanvasitemsimple.c:220
+msgid "The hinting to be used for font metrics"
+msgstr "Гінтінґ, яким слід скористатися для метрики шрифту"
+
+#: src/goocanvasitemsimple.c:228
+msgid "Stroke Color"
+msgstr "Колір штриха"
+
+#: src/goocanvasitemsimple.c:229
+msgid ""
+"The color to use for the item's perimeter. To disable painting set the "
+"'stroke-pattern' property to NULL"
+msgstr ""
+"Колір, яким слід скористатися для периметра об'єкта. Щоб вимкнути малювання"
+" периметра, встановіть для властивості «stroke-pattern» значення NULL"
+
+#: src/goocanvasitemsimple.c:235
+msgid "Stroke Color RGBA"
+msgstr "Колір штриха RGBA"
+
+#: src/goocanvasitemsimple.c:236
+msgid ""
+"The color to use for the item's perimeter, specified as a 32-bit integer "
+"value. To disable painting set the 'stroke-pattern' property to NULL"
+msgstr ""
+"Колір, яким слід скористатися для периметра об'єкта, вказаний у форматі"
+" 32-бітового цілого значення. Щоб вимкнути малювання периметра, встановіть"
+" для властивості «stroke-pattern» значення NULL"
+
+#: src/goocanvasitemsimple.c:249
+msgid "Stroke Color GdkRGBA"
+msgstr "Колір штриха GdkRGBA"
+
+#: src/goocanvasitemsimple.c:250
+msgid ""
+"The color to use for the item's perimeter, specified as a GdkRGBA. To "
+"disable painting set the 'stroke-pattern' property to NULL"
+msgstr ""
+"Колір, яким слід скористатися для периметра об'єкта, вказаний у форматі"
+" GdkRGBA. Щоб вимкнути малювання периметра, встановіть для властивості"
+" «stroke-pattern» значення NULL"
+
+#: src/goocanvasitemsimple.c:256
+msgid "Stroke Pixbuf"
+msgstr "Буфер зображення штриха"
+
+#: src/goocanvasitemsimple.c:257
+msgid ""
+"The pixbuf to use to draw the item's perimeter. To disable painting set the "
+"'stroke-pattern' property to NULL"
+msgstr ""
+"Буфер зображення, яким слід скористатися для малювання периметра об'єкта. Щоб"
+" вимкнути малювання периметра, встановіть для властивості «stroke-pattern»"
+" значення NULL"
+
+#: src/goocanvasitemsimple.c:263
+msgid "Fill Color"
+msgstr "Колір заповнення"
+
+#: src/goocanvasitemsimple.c:264
+msgid ""
+"The color to use to paint the interior of the item. To disable painting set "
+"the 'fill-pattern' property to NULL"
+msgstr ""
+"Колір, яким слід скористатися для малювання середини об'єкта. Щоб вимкнути"
+" малювання середини, встановіть для властивості «fill-pattern» значення NULL"
+
+#: src/goocanvasitemsimple.c:270
+msgid "Fill Color RGBA"
+msgstr "Колір заповнення RGBA"
+
+#: src/goocanvasitemsimple.c:271
+msgid ""
+"The color to use to paint the interior of the item, specified as a 32-bit "
+"integer value. To disable painting set the 'fill-pattern' property to NULL"
+msgstr ""
+"Колір, яким слід скористатися для малювання середини об'єкта, вказаний у"
+" форматі 32-бітового цілого значення. Щоб вимкнути малювання середини,"
+" встановіть для властивості «fill-pattern» значення NULL"
+
+#: src/goocanvasitemsimple.c:284
+msgid "Fill Color GdkRGBA"
+msgstr "Колір заповнення GdkRGBA"
+
+#: src/goocanvasitemsimple.c:285
+msgid ""
+"The color to use to paint the interior of the item, specified as a GdkRGBA. "
+"To disable painting set the 'fill-pattern' property to NULL"
+msgstr ""
+"Колір, яким слід скористатися для малювання середини об'єкта, вказаний у"
+" форматі GdkRGBA. Щоб вимкнути малювання середини, встановіть для властивості"
+" «fill-pattern» значення NULL"
+
+#: src/goocanvasitemsimple.c:291
+msgid "Fill Pixbuf"
+msgstr "Буфер зображення заповнення"
+
+#: src/goocanvasitemsimple.c:292
+msgid ""
+"The pixbuf to use to paint the interior of the item. To disable painting set "
+"the 'fill-pattern' property to NULL"
+msgstr ""
+"Буфер зображення, яким слід скористатися для малювання середини об'єкта. Щоб"
+" вимкнути малювання середини, встановіть для властивості «fill-pattern»"
+" значення NULL"
+
+#: src/goocanvasitemsimple.c:342
+msgid "Clip Path"
+msgstr "Контур-обрізання"
+
+#: src/goocanvasitemsimple.c:343
+msgid "The sequence of path commands specifying the clip path"
+msgstr ""
+"Послідовність команд малювання контуру для визначення контуру-обрізання"
+
+#: src/goocanvasitemsimple.c:349
+msgid "Clip Fill Rule"
+msgstr "Правило заповнення обрізання"
+
+#: src/goocanvasitemsimple.c:350
+msgid "The fill rule used to determine which parts of the item are clipped"
+msgstr ""
+"Правило заповнення, яким слід скористатися для визначення того, які частини"
+" об'єкта слід обрізати."
+
+#: src/goocanvaspath.c:70
+msgid "Path Data"
+msgstr "Дані контуру"
+
+#: src/goocanvaspath.c:71
+msgid "The sequence of path commands"
+msgstr "Послідовність команд малювання контуру"
+
+#: src/goocanvaspath.c:78
+msgid "The x coordinate of the path"
+msgstr "Координата контуру за x"
+
+#: src/goocanvaspath.c:86
+msgid "The y coordinate of the path"
+msgstr "Координата контуру за y"
+
+#: src/goocanvaspath.c:94
+msgid "The width of the path"
+msgstr "Ширина контуру"
+
+#: src/goocanvaspath.c:101
+msgid "The height of the path"
+msgstr "Висота контуру"
+
+#: src/goocanvaspolyline.c:181
+msgid "Points"
+msgstr "Точки"
+
+#: src/goocanvaspolyline.c:182
+msgid "The array of points"
+msgstr "Масив точок"
+
+#: src/goocanvaspolyline.c:188
+msgid "Close Path"
+msgstr "Замкненість контуру"
+
+#: src/goocanvaspolyline.c:189
+msgid "If the last point should be connected to the first"
+msgstr "Чи з'єднано останню точку з першою"
+
+#: src/goocanvaspolyline.c:195
+msgid "Start Arrow"
+msgstr "Початок-стрілка"
+
+#: src/goocanvaspolyline.c:196
+msgid "If an arrow should be displayed at the start of the polyline"
+msgstr "Чи має бути показано стрілку на початку ламаної"
+
+#: src/goocanvaspolyline.c:202
+msgid "End Arrow"
+msgstr "Кінець-стрілка"
+
+#: src/goocanvaspolyline.c:203
+msgid "If an arrow should be displayed at the end of the polyline"
+msgstr "Чи має бути показано стрілку у кінці ламаної"
+
+#: src/goocanvaspolyline.c:209
+msgid "Arrow Length"
+msgstr "Довжина стрілки"
+
+#: src/goocanvaspolyline.c:210
+msgid "The length of the arrows, as a multiple of the line width"
+msgstr "Довжина стрілок відносно товщини лінії"
+
+#: src/goocanvaspolyline.c:216
+msgid "Arrow Width"
+msgstr "Ширина стрілки"
+
+#: src/goocanvaspolyline.c:217
+msgid "The width of the arrows, as a multiple of the line width"
+msgstr "Ширина стрілки відносно товщини лінії"
+
+#: src/goocanvaspolyline.c:223
+msgid "Arrow Tip Length"
+msgstr "Довжина кінчика стрілки"
+
+#: src/goocanvaspolyline.c:224
+msgid "The length of the arrow tip, as a multiple of the line width"
+msgstr "Довжина кінчика стрілки відносно товщини лінії"
+
+#: src/goocanvaspolyline.c:231
+msgid "The x coordinate of the left-most point of the polyline"
+msgstr "Координата за x найлівішої точки ламаної"
+
+#: src/goocanvaspolyline.c:239
+msgid "The y coordinate of the top-most point of the polyline"
+msgstr "Координата за y найвищої точки ламаної"
+
+#: src/goocanvaspolyline.c:247
+msgid "The width of the polyline"
+msgstr "Ширина ламаної"
+
+#: src/goocanvaspolyline.c:254
+msgid "The height of the polyline"
+msgstr "Висота ламаної"
+
+#: src/goocanvasrect.c:61
+msgid "The x coordinate of the rectangle"
+msgstr "Координата прямокутника за x"
+
+#: src/goocanvasrect.c:69
+msgid "The y coordinate of the rectangle"
+msgstr "Координата прямокутника за y"
+
+#: src/goocanvasrect.c:77
+msgid "The width of the rectangle"
+msgstr "Ширина прямокутника"
+
+#: src/goocanvasrect.c:84
+msgid "The height of the rectangle"
+msgstr "Висота прямокутника"
+
+#: src/goocanvasrect.c:91
+msgid "The horizontal radius to use for rounded corners"
+msgstr "Горизонтальний радіус округлених кутів"
+
+#: src/goocanvasrect.c:98
+msgid "The vertical radius to use for rounded corners"
+msgstr "Вертикальний радіус округлених кутів"
+
+#: src/goocanvastable.c:237
+msgid "Row Spacing"
+msgstr "Міжрядковий інтервал"
+
+#: src/goocanvastable.c:238
+msgid "The default space between rows"
+msgstr "Типовий інтервал між рядками"
+
+#: src/goocanvastable.c:244
+msgid "Column Spacing"
+msgstr "Інтервал між стовпчиками"
+
+#: src/goocanvastable.c:245
+msgid "The default space between columns"
+msgstr "Типовий інтервал між стовпчиками"
+
+#: src/goocanvastable.c:251
+msgid "Homogenous Rows"
+msgstr "Однорідні рядки"
+
+#: src/goocanvastable.c:252
+msgid "If all rows are the same height"
+msgstr "Чи мають бути усі рядки однакової висоти"
+
+#: src/goocanvastable.c:258
+msgid "Homogenous Columns"
+msgstr "Однорідні стовпчики"
+
+#: src/goocanvastable.c:259
+msgid "If all columns are the same width"
+msgstr "Чи мають бути усі стовпчики однакової ширини"
+
+#: src/goocanvastable.c:264
+msgid "X Border Spacing"
+msgstr "Інтервал рамки за X"
+
+#: src/goocanvastable.c:265
+msgid ""
+"The amount of spacing between the lefmost and rightmost cells and the border "
+"grid line"
+msgstr "Відстань між найлівішою і найправішою комірками і лінією ґратки рамки"
+
+#: src/goocanvastable.c:270
+msgid "Y Border Spacing"
+msgstr "Інтервал рамки за Y"
+
+#: src/goocanvastable.c:271
+msgid ""
+"The amount of spacing between the topmost and bottommost cells and the "
+"border grid line"
+msgstr "Відстань між найвищою і найнижчою комірками і лінією ґратки рамки"
+
+#: src/goocanvastable.c:277
+msgid "The width of the grid line to draw between rows"
+msgstr "Товщина лінії ґратки, яку буде намальовано між рядками"
+
+#: src/goocanvastable.c:284
+msgid "The width of the grid line to draw between columns"
+msgstr "Товщина лінії ґратки, яку буде намальовано між стовпчиками"
+
+#: src/goocanvastable.c:293
+msgid "Left Padding"
+msgstr "Доповнення зліва"
+
+#: src/goocanvastable.c:294
+msgid "Extra space to add to the left of the item"
+msgstr "Додатковий проміжок, який слід додати ліворуч від об'єкта"
+
+#: src/goocanvastable.c:299
+msgid "Right Padding"
+msgstr "Доповнення справа"
+
+#: src/goocanvastable.c:300
+msgid "Extra space to add to the right of the item"
+msgstr "Додатковий проміжок, який слід додати праворуч від об'єкта"
+
+#: src/goocanvastable.c:305
+msgid "Top Padding"
+msgstr "Доповнення згори"
+
+#: src/goocanvastable.c:306
+msgid "Extra space to add above the item"
+msgstr "Додатковий проміжок, який слід додати над об'єктом"
+
+#: src/goocanvastable.c:311
+msgid "Bottom Padding"
+msgstr "Доповнення знизу"
+
+#: src/goocanvastable.c:312
+msgid "Extra space to add below the item"
+msgstr "Додатковий проміжок, який слід додати під об'єктом"
+
+#: src/goocanvastable.c:318
+msgid "X Align"
+msgstr "Вирівнювання за X"
+
+#: src/goocanvastable.c:319
+msgid ""
+"The horizontal position of the item within its allocated space. 0.0 is left-"
+"aligned, 1.0 is right-aligned"
+msgstr ""
+"Розташування об'єкта за горизонталлю у межах отриманого простору. 0.0 —"
+" вирівняти ліворуч, 1.0 — вирівняти праворуч"
+
+#: src/goocanvastable.c:324
+msgid "Y Align"
+msgstr "Вирівнювання за Y"
+
+#: src/goocanvastable.c:325
+msgid ""
+"The vertical position of the item within its allocated space. 0.0 is top-"
+"aligned, 1.0 is bottom-aligned"
+msgstr ""
+"Розташування об'єкта за вертикаллю у межах отриманого простору. 0.0 —"
+" вирівняти вгору, 1.0 — вирівняти вниз"
+
+#: src/goocanvastable.c:331
+msgid "Row"
+msgstr "Рядок"
+
+#: src/goocanvastable.c:332
+msgid "The row to place the item in"
+msgstr "Рядок, у якому слід розташувати об'єкт"
+
+#: src/goocanvastable.c:337
+msgid "Column"
+msgstr "Стовпчик"
+
+#: src/goocanvastable.c:338
+msgid "The column to place the item in"
+msgstr "Стовпчик, у якому слід розташувати об'єкт"
+
+#: src/goocanvastable.c:343
+msgid "Rows"
+msgstr "Рядки"
+
+#: src/goocanvastable.c:344
+msgid "The number of rows that the item spans"
+msgstr "Кількість рядків, які займає об'єкт"
+
+#: src/goocanvastable.c:349
+msgid "Columns"
+msgstr "Стовпчики"
+
+#: src/goocanvastable.c:350
+msgid "The number of columns that the item spans"
+msgstr "Кількість стовпчиків, які займає об'єкт"
+
+#: src/goocanvastable.c:356
+msgid "X Expand"
+msgstr "Розширення за X"
+
+#: src/goocanvastable.c:357
+msgid "If the item expands horizontally as the table expands"
+msgstr "Чи слід розтягувати об'єкт горизонтально, якщо розширюється таблиця"
+
+#: src/goocanvastable.c:362
+msgid "X Fill"
+msgstr "Заповнення за X"
+
+#: src/goocanvastable.c:363
+msgid "If the item fills all horizontal allocated space"
+msgstr "Чи слід заповнювати об'єктом увесь доступних простір за горизонталлю"
+
+#: src/goocanvastable.c:368
+msgid "X Shrink"
+msgstr "Стискання за X"
+
+#: src/goocanvastable.c:369
+msgid "If the item can shrink smaller than its requested size horizontally"
+msgstr "Чи можна стискати об'єкт до ширини, меншої за запитану"
+
+#: src/goocanvastable.c:374
+msgid "Y Expand"
+msgstr "Заповнення за Y"
+
+#: src/goocanvastable.c:375
+msgid "If the item expands vertically as the table expands"
+msgstr "Чи слід розтягувати об'єкт вертикально, якщо розширюється таблиця"
+
+#: src/goocanvastable.c:380
+msgid "Y Fill"
+msgstr "Заповнення за Y"
+
+#: src/goocanvastable.c:381
+msgid "If the item fills all vertical allocated space"
+msgstr "Чи заповнює об'єкт увесь отриманий простір за вертикаллю"
+
+#: src/goocanvastable.c:386
+msgid "Y Shrink"
+msgstr "Стискання за Y"
+
+#: src/goocanvastable.c:387
+msgid "If the item can shrink smaller than its requested size vertically"
+msgstr "Чи можна стискати об'єкт до висоти, меншої за запитану"
+
+#: src/goocanvastext.c:94
+msgid "Text"
+msgstr "Текст"
+
+#: src/goocanvastext.c:95
+msgid "The text to display"
+msgstr "Текст, який слід показати"
+
+#: src/goocanvastext.c:101
+msgid "Use Markup"
+msgstr "Використовувати розмітку"
+
+#: src/goocanvastext.c:102
+msgid "Whether to parse PangoMarkup in the text, to support different styles"
+msgstr "Чи слід обробляти PangoMarkup у тексті з метою підтримки різних стилів"
+
+#: src/goocanvastext.c:108
+msgid "Ellipsize"
+msgstr "Трикрапка"
+
+#: src/goocanvastext.c:109
+msgid ""
+"The preferred place to ellipsize the string, if the label does not have "
+"enough room to display the entire string"
+msgstr ""
+"Бажане місце для овалу рядка, якщо для показу усього рядка не вистачає місця."
+
+#: src/goocanvastext.c:116
+msgid "Wrap"
+msgstr "Перенос"
+
+#: src/goocanvastext.c:117
+msgid "The preferred method of wrapping the string if a width has been set"
+msgstr "Бажаний спосіб перенесення рядка, якщо встановлено ширину"
+
+#: src/goocanvastext.c:126
+msgid "The x coordinate of the text"
+msgstr "Координата x тексту"
+
+#: src/goocanvastext.c:134
+msgid "The y coordinate of the text"
+msgstr "Координата y тексту"
+
+#: src/goocanvastext.c:142
+msgid ""
+"The width to use to layout the text, or -1 to let the text use as much "
+"horizontal space as needed"
+msgstr ""
+"Ширина для компонування тексту або -1, щоб текст займав, якщо потрібно,"
+" максимальну ширину за горизонталлю"
+
+#: src/goocanvastext.c:150
+msgid ""
+"The height to use to layout the text, or -1 to let the text use as much "
+"vertical space as needed"
+msgstr ""
+"Висота для компонування тексту або -1, щоб текст займав, якщо потрібно,"
+" максимальну висоту за вертикаллю"
+
+#: src/goocanvastext.c:159
+msgid "How to position the text relative to the given x and y coordinates"
+msgstr "Як розташувати текст відносно за вказаними координатами x та y"
+
+#: src/goocanvastext.c:166
+msgid "Alignment"
+msgstr "Вирівнювання"
+
+#: src/goocanvastext.c:167
+msgid "How to align the text"
+msgstr "Як вирівнювати текст"
+
+#: src/goocanvaswidget.c:547
+msgid "Widget"
+msgstr "Віджет"
+
+#: src/goocanvaswidget.c:548
+msgid "The widget to place in the canvas"
+msgstr "Віджет, який слід розташувати на полотні"
+
+#: src/goocanvaswidget.c:555
+msgid "The x coordinate of the widget"
+msgstr "Координата x віджета"
+
+#: src/goocanvaswidget.c:563
+msgid "The y coordinate of the widget"
+msgstr "Координата y віджета"
+
+#: src/goocanvaswidget.c:571
+msgid "The width of the widget, or -1 to use its requested width"
+msgstr "Ширина віджета або -1, якщо слід використати запитану ширину"
+
+#: src/goocanvaswidget.c:579
+msgid "The height of the widget, or -1 to use its requested height"
+msgstr "Висота віджета або -1, якщо слід використати запитану висоту"
+
+#: src/goocanvaswidget.c:588
+msgid ""
+"How to position the widget relative to the item's x and y coordinate settings"
+msgstr "Як розташувати віджет відносно параметрів координат x та y пункту"
