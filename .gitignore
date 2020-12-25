@@ -47,7 +47,6 @@ Makefile.in
 /missing
 /mkinstalldirs
 /po/POTFILES
-/po/Makefile.in.in
 /src/goocanvasenumtypes.c
 /src/goocanvasenumtypes.h
 /src/goocanvasmarshal.c
